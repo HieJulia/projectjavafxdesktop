@@ -22,9 +22,12 @@ import javafx.scene.shape.Rectangle;
 import javafx.scene.text.Font;
 import javafx.scene.text.FontWeight;
 import javafx.scene.text.Text;
+
 import javafx.scene.text.TextAlignment;
 import javafx.stage.Stage;
 import javafx.util.Duration;
+
+import java.io.IOException;
 
 
 /**
@@ -46,85 +49,47 @@ public class Main extends Application {
     public void start(Stage primaryStage) throws Exception{
 
 
-//        Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
+//        Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));/**/
         // Set title
-//        primaryStage.setTitle("Hello World");
-//
-//        Group group = new Group();
-//        Scene scene = new Scene(group, 300, 250);
-//
-//        Button btn = new Button();
-//        btn.setLayoutX(100);
-//        btn.setLayoutY(80);
-//
-//        btn.setText("Hello World");
-//        btn.setOnAction(new EventHandler<ActionEvent>() {
-//
-//            public void handle(ActionEvent event) {
-//                System.out.println("Hello World");
-//            }
-//        });
-//
-//
-//        group.getChildren().add(btn);
-//        primaryStage.setScene(scene);
-//        primaryStage.show();
+        primaryStage.setTitle("Hello World");
+
+        Group group = new Group();
+        Scene scene = new Scene(group, 300, 250);
+
+        Button btn = new Button();
+        btn.setLayoutX(100);
+        btn.setLayoutY(80);
+
+        btn.setText("Hello World");
+        btn.setOnAction(new EventHandler<ActionEvent>() {
+
+            public void handle(ActionEvent event) {
+                System.out.println("Hello World");
+            }
+        });
+
+
+        group.getChildren().add(btn);
+        primaryStage.setScene(scene);
+        primaryStage.show();
 
 
         // Message
-        String message
-                = "Earthrise at Christmas: "
-                + "[Forty] years ago this Christmas, a turbulent world "
-                + "looked to the heavens for a unique view of our home "
-                + "planet. This photo of Earthrise over the lunar horizon "
-                + "was taken by the Apollo 8 crew in December 1968, showing "
-                + "Earth for the first time as it appears from deep space. "
-                + "Astronauts Frank Borman, Jim Lovell and William Anders "
-                + "had become the first humans to leave Earth orbit, "
-                + "entering lunar orbit on Christmas Eve. In a historic live "
-                + "broadcast that night, the crew took turns reading from "
-                + "the Book of Genesis, closing with a holiday wish from "
-                + "Commander Borman: \"We close with good night, good luck, "
-                + "a Merry Christmas, and God bless all of you    all of "
-                + "you on the good Earth.\"";
-
-        // Reference to the Text
-        Text textRef = new Text(message);
-        textRef.setLayoutY(100);
-        textRef.setTextOrigin(VPos.TOP);
-        textRef.setTextAlignment(TextAlignment.JUSTIFY);
-        textRef.setWrappingWidth(400);
-        textRef.setFill(Color.rgb(187, 195, 107));
-        textRef.setFont(Font.font("SansSerif", FontWeight.BOLD, 24));
-
-        // Provides the animated scrolling behavior for the text
-        TranslateTransition transTransition = new TranslateTransition(new Duration(75000), textRef);
-        transTransition.setToY(-820);
-        transTransition.setInterpolator(Interpolator.LINEAR);
-        transTransition.setCycleCount(Timeline.INDEFINITE);
-
-        // Create an ImageView containing the Image
-        Image image = new Image ("http://projavafx.com/images/earthrise.jpg");
-        ImageView imageView = new ImageView(image);
-
-        // Create a Group containing the text
-        Group textGroup = new Group(textRef);
-        textGroup.setLayoutX(50);
-        textGroup.setLayoutY(180);
-        textGroup.setClip(new Rectangle(430, 85));
-
-        // Combine ImageView and Group to the scene
-        Group root = new Group(imageView, textGroup);
-        Scene scene = new Scene(root, 516, 387);
-
-        primaryStage.setScene(scene);
-        primaryStage.setTitle("Hello Earthrise");
-        primaryStage.show();
-
-        // Start the text animation
-        transTransition.play();
-
-
+//        stage.setTitle("FXMLContactForm ");
+//
+//        Parent root = null;
+//        try {
+//            root = FXMLLoader.load(getClass().getResource("ContactForm.fxml"));
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
+//
+//        Scene scene = new Scene(root, 380, 150, Color.WHITE);
+//        stage.setScene(scene);
+//        stage.setMinWidth(200);
+//        stage.setMinHeight(200);
+//
+//        stage.show();
 
 
 
