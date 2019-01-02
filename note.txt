@@ -1,67 +1,22 @@
-Project portfolio ;
-https://github.com/Jenamehta/ecommerce
-https://github.com/bosz/unified-accounts-book
-https://github.com/Pyknic/SocialPhotoNetworkClient
-https://github.com/manassehl9/stock-management-system-javaFX
-https://github.com/CharlieGoodson/SchoolManagementSystem
-https://github.com/hjohn/MediaSystem
-https://github.com/Amine-Smahi/Material-Hotel-Management-System
-https://github.com/crypto-coder/firstlight
-https://github.com/MeAnupSarkar/ExoVisix
-
-
-https://github.com/codingchili/ethereum-ingest
-
-https://github.com/graniteds/shop-admin-javafx-3.0.0.M1_attic
-
-https://github.com/to-dy/Hospital-Management-JavaFX
-https://github.com/malafeev/JFTClient
-
-https://github.com/ivandzf/YourCompanyJavaFX
-https://github.com/iamKunal/Visitor-Management-Sys
-https://github.com/locked-fg/Weatherstation
-https://github.com/k33ptoo/RestaurantMgtSampleUI
-https://github.com/femi/hongry
-https://github.com/jesuino/sentiments-app
-https://github.com/AdamBien/airhacks-control
-https://github.com/ayushmaanbhav/invoice-fx
 https://github.com/sujit25/Human-hair-detection
-https://github.com/kmrifat/Dr-Assistant
-https://github.com/NixonOK/Inventory-Management-System-JavaFX-FXML-Netbeans-Scene-Builder
-https://github.com/catman85/JavaFX-Student-Management-System
-https://github.com/timgrossmann/StorageSystem
-https://github.com/VocabHunter/VocabHunter
-https://github.com/frosch95/SmartCSV.fx
-https://github.com/jperedadnr/SMSTracker
 https://github.com/AYIDouble/Cat-Face-Detector-with-OpenCV-and-JavaFX
-https://github.com/Amine-Smahi/Javafx-HotelManagement
-https://github.com/SKocur/Image-Cipher
-https://github.com/Dainerx/CarrefourERP
-https://github.com/opencv-java/object-detection
-
-https://github.com/opencv-java/image-segmentation
-https://github.com/opencv-java/video-basics
-https://github.com/vatri/InvMan
-https://github.com/fxpresso/FXMaps
-https://github.com/opencv-java/camera-calibration
-https://github.com/opencv-java/face-detection
 https://github.com/kmrifat/StoreKeeper
-https://github.com/afsalashyana/Library-Assistant
+https://github.com/Dainerx/CarrefourERP
+https://github.com/opencv-java/face-detection
 
 
 
-Base project :
+https://github.com/MeAnupSarkar/ExoVisix
+    + OpenCV
+    + JavaFX
+    + MySQL
+    + Maven
+    + Tesseract OCR Framework
 
 
-https://github.com/k33ptoo/School-Management-System-JavaFX
-https://github.com/mirkosertic/FXDesktopSearch
-
-
-
-
-
-
-
+https://github.com/kmrifat/Dr-Assistant
+    + view -> auth, common, drug, html, other , patient,
+    + big project
 
 
 
