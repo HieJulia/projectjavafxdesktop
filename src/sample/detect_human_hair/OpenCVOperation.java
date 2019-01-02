@@ -20,7 +20,7 @@ import org.opencv.core.Point;
 
 
 
-// Open CV operator
+// Open CV operations
 public class OpenCVOperation {
     // Init open cv properties
 
@@ -59,8 +59,11 @@ public class OpenCVOperation {
     public OpenCVOperation(String rootDirectory,String sourceFileName,String[] OutputFileNames)
     {
         resultDirectory = rootDirectory;
+
         fileName =sourceFileName;
+        // grabcut output
         grabcutOutput = "face2_grabcut.png";
+
         skinDetectionOutput = "face3_skindetection.png";
          /*--existing file names
          grabcut_QuantizedOutput = "face5_grabcut_quantized.png";
@@ -87,8 +90,12 @@ public class OpenCVOperation {
         System.loadLibrary(Core.NATIVE_LIBRARY_NAME);
     }
 
+
+    // Test grab cut
     public void testGrabCut()
     {
+
+        // source image
         sourceImage = Imgcodecs.imread(resultDirectory+fileName,Imgcodecs.CV_LOAD_IMAGE_COLOR);
         System.out.println("result Directory is: "+ resultDirectory+fileName);
 
@@ -110,9 +117,20 @@ public class OpenCVOperation {
     }
 
     //skin detection algorithm 1
+
+
+    // Skin detection algorithm
+        // HSV color method
+            // Get RGB skin
     public void skinSegmentation_WithThreshold()
     {
         //-----code for skin detection--using hsv color method
+            // code for skin detection - using
+
+
+        // skin detection
+
+            // skin detection - algorithm - using hsv color method
 
         orgMask= new Mat(matrix2_grabcut.size(),CvType.CV_8UC3);
         orgMask.setTo(new Scalar(0,0,0));
@@ -124,6 +142,7 @@ public class OpenCVOperation {
         Imgcodecs.imwrite(resultDirectory + maskOutput, orgMask);
 
         newMask = Imgcodecs.imread(resultDirectory + maskOutput);
+        // code for getting rgb skin mask from hsv skin mask
         //code for getting rgb skin mask from hsv skin mask
         mask_rgb = new Mat(newMask.size(),CvType.CV_8SC3);
         Imgproc.cvtColor(newMask, mask_rgb, Imgproc.COLOR_HSV2RGB);
@@ -135,6 +154,8 @@ public class OpenCVOperation {
         sourceImage.copyTo(matrix3_skindetection,orgMask);
 
         Imgcodecs.imwrite(resultDirectory+skinDetectionOutput,matrix3_skindetection);
+
+
     }
 
 
@@ -232,12 +253,14 @@ public class OpenCVOperation {
 
 
     // Set quantized images
-    private void setQuantizedImages()
+    void setQuantizedImages()
     {
         matrix5_grabcut_quantized = this.quantizeImage(matrix2_grabcut, grabcut_QuantizedOutput);
         matrix6_skin_quantized = this.quantizeImage(matrix3_skindetection,skin_QuantizedOutput);
     }
 
+
+    // Find contours
     public void findContours()
     {
 
@@ -346,6 +369,7 @@ public class OpenCVOperation {
 
 
     //step5
+    // Find image difference
     public void findImageDifference()
     {
         matrix7_output = new Mat(sourceImage.size(),sourceImage.type());
@@ -418,19 +442,21 @@ public class OpenCVOperation {
     {
         return finalImage_Output;
     }
-    public  void displayPixels(Mat image)
+    public void displayPixels(Mat image)
     {
         for( int r =0 ;r < image.rows() ; r++)
         {
             for( int c=0; c < image.cols() ; c++)
             {
                 double[] pixel_val = image.get(r, c);
+                // get image pixels
                 System.out.print("(" +pixel_val[0]+","+pixel_val[1]+","+pixel_val[2]+") *");
             }
             System.out.println();
         }
     }
 
+    // Perform erosion dilution
     public void performErosion_Dilution()
     {
         erosion_dilutionMatrix = new Mat(this.matrix7_output.size(),this.matrix7_output.type());
@@ -449,6 +475,14 @@ public class OpenCVOperation {
             */
     }
 
+
+    /**
+     * Detect hair color
+     *  1.
+     *  2.
+     *  3.
+     *
+     */
     public void predict_hair_color()
     {
         Mat hsv_input = matrix9_finalOutput.clone();

@@ -17,7 +17,8 @@ public class HairDetection extends Application {
 
         Scene scene = new Scene(root);
         // Set title -
-        stage.setTitle("Hair Region Extractor");
+        stage.setTitle("Detect Human Hair");
+        // Play with Open CV
 
         stage.setScene(scene);
 
