@@ -56,7 +56,7 @@ public class OpenCVOperation {
 
 
 
-    public OpenCVoperation(String rootDirectory,String sourceFileName,String[] OutputFileNames)
+    public OpenCVOperation(String rootDirectory,String sourceFileName,String[] OutputFileNames)
     {
         resultDirectory = rootDirectory;
         fileName =sourceFileName;
