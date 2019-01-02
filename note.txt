@@ -1,8 +1,16 @@
 https://github.com/sujit25/Human-hair-detection
+    + Open CV
+    + Detect human hair
 https://github.com/AYIDouble/Cat-Face-Detector-with-OpenCV-and-JavaFX
+    + OpenCV
+    + Access to the camera
+
 https://github.com/kmrifat/StoreKeeper
-https://github.com/Dainerx/CarrefourERP
 https://github.com/opencv-java/face-detection
+    + OpenCV
+        + Haar
+        +
+    + Detect human faces in a webcam
 
 
 
@@ -19,4 +27,9 @@ https://github.com/kmrifat/Dr-Assistant
     + big project
 
 
+https://github.com/opencv-java/video-basics
+    + OpenCV
+    + Capture a video from webcam and manipulating its frame : add a logo in the corner of the video player - convert the video in grayscale, and show the histogram of each frame
 
+    + Install OpenCV
+    +
