@@ -4,7 +4,7 @@ import java.awt.image.BufferedImage;
 import java.awt.image.DataBufferByte;
 
 // Import Open CV
-import org.opencv.core.Mat;
+//import org.opencv.core.Mat;
 
 import javafx.application.Platform;
 import javafx.beans.property.ObjectProperty;

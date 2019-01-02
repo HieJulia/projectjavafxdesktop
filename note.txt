@@ -1,19 +1,18 @@
-https://github.com/sujit25/Human-hair-detection
+
     + Open CV
     + Detect human hair
+
+
+
+
+
 https://github.com/AYIDouble/Cat-Face-Detector-with-OpenCV-and-JavaFX
     + OpenCV
     + Access to the camera
-
-https://github.com/kmrifat/StoreKeeper
 https://github.com/opencv-java/face-detection
     + OpenCV
         + Haar
-        +
     + Detect human faces in a webcam
-
-
-
 https://github.com/MeAnupSarkar/ExoVisix
     + OpenCV
     + JavaFX
@@ -22,14 +21,20 @@ https://github.com/MeAnupSarkar/ExoVisix
     + Tesseract OCR Framework
 
 
+
 https://github.com/kmrifat/Dr-Assistant
     + view -> auth, common, drug, html, other , patient,
     + big project
-
-
 https://github.com/opencv-java/video-basics
     + OpenCV
     + Capture a video from webcam and manipulating its frame : add a logo in the corner of the video player - convert the video in grayscale, and show the histogram of each frame
-
     + Install OpenCV
-    +
+-------
+
+
+
+
+ket hop 2 cai luon co duoc khong - da duoc - no ve nha
+
+
+con be nay tran zo a - no om lai - no ra con gai - thich con be nay ha - van deo lam cai me gi ca
