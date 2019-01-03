@@ -13,7 +13,9 @@ import org.opencv.core.Size;
 import org.opencv.imgproc.Imgproc;
 import org.opencv.objdetect.CascadeClassifier;
 import org.opencv.objdetect.Objdetect;
-import org.opencv.videoio.VideoCapture;
+//import org.opencv.videoio.VideoCapture;
+
+//import org.opencv.highgui.VideoCapture;
 
 
 import javafx.event.Event;
@@ -22,6 +24,12 @@ import javafx.scene.control.Button;
 import javafx.scene.control.CheckBox;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
+
+
+import org.opencv.videoio.VideoCapture;
+
+
+
 import sample.utils.Utils;
 
 /**
@@ -69,8 +77,11 @@ public class FaceDetectionController
      */
     protected void init()
     {
+        System.out.print("I N I T ");
+
 
         this.capture = new VideoCapture();
+
         this.faceCascade = new CascadeClassifier();
         this.absoluteFaceSize = 0;
 
@@ -88,6 +99,8 @@ public class FaceDetectionController
     @FXML
     protected void startCamera()
     {
+        System.out.print("START CAMERA");
+
         if (!this.cameraActive)
         {
             // disable setting checkboxes
@@ -319,6 +332,13 @@ public class FaceDetectionController
     protected void setClosed()
     {
         this.stopAcquisition();
+
     }
+
+
+    // it did not log the error - what the hell
+
+    // thanh nien nay hoan toan im lan g
+
 
 }

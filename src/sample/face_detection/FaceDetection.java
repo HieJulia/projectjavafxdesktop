@@ -1,7 +1,6 @@
 package sample.face_detection;
 
 
-import javafx.scene.Parent;
 import org.opencv.core.Core;
 
 import javafx.application.Application;
@@ -9,7 +8,7 @@ import javafx.event.EventHandler;
 import javafx.stage.Stage;
 import javafx.stage.WindowEvent;
 import javafx.scene.Scene;
-
+import javafx.scene.layout.BorderPane;
 import javafx.fxml.FXMLLoader;
 
 
@@ -21,11 +20,10 @@ public class FaceDetection extends Application
         try
         {
             // load the FXML resource
-//            FXMLLoader loader = new FXMLLoader(getClass().getResource("FaceDetection.fxml"));
-            Parent root = FXMLLoader.load(getClass().getResource("FaceDetection.fxml"));/**/
-//            BorderPane root = (BorderPane) loader.load();
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("FaceDetection2.fxml"));
+            BorderPane root = (BorderPane) loader.load();
             // set a whitesmoke background
-//            root.setStyle("-fx-background-color: whitesmoke;");
+            root.setStyle("-fx-background-color: whitesmoke;");
             // create and style a scene
             Scene scene = new Scene(root, 800, 600);
             scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
@@ -37,16 +35,16 @@ public class FaceDetection extends Application
             primaryStage.show();
 
             // init the controller
-//            FaceDetectionController controller = loader.getController();
-//            controller.init();
-//
-//            // set the proper behavior on closing the application
-//            primaryStage.setOnCloseRequest((new EventHandler<WindowEvent>() {
-//                public void handle(WindowEvent we)
-//                {
-//                    controller.setClosed();
-//                }
-//            }));
+            FaceDetectionController controller = loader.getController();
+            controller.init();
+
+            // set the proper behavior on closing the application
+            primaryStage.setOnCloseRequest((new EventHandler<WindowEvent>() {
+                public void handle(WindowEvent we)
+                {
+                    controller.setClosed();
+                }
+            }));
         }
         catch (Exception e)
         {
@@ -57,7 +55,8 @@ public class FaceDetection extends Application
     public static void main(String[] args)
     {
         // load the native OpenCV library
-//        System.loadLibrary(Core.NATIVE_LIBRARY_NAME);
+
+        System.load("/usr/local/Cellar/opencv/3.4.5/share/OpenCV/java/libopencv_java345.dylib");
 
         launch(args);
     }
