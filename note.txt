@@ -1,14 +1,12 @@
 
-    + Open CV
-    + Detect human hair
-
-
-
-
-
-https://github.com/AYIDouble/Cat-Face-Detector-with-OpenCV-and-JavaFX
     + OpenCV
     + Access to the camera
+
+
+
+
+
+
 https://github.com/opencv-java/face-detection
     + OpenCV
         + Haar
@@ -31,10 +29,6 @@ https://github.com/opencv-java/video-basics
     + Install OpenCV
 -------
 
+Used :
 
-
-
-ket hop 2 cai luon co duoc khong - da duoc - no ve nha
-
-
-con be nay tran zo a - no om lai - no ra con gai - thich con be nay ha - van deo lam cai me gi ca
+https://github.com/sujit25/Human-hair-detection

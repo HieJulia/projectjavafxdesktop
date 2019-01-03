@@ -55,7 +55,7 @@ public class OpenCVOperation {
     private final String FinalImageWithDilutionOutput;
 
 
-
+    // Open CV Operation
     public OpenCVOperation(String rootDirectory,String sourceFileName,String[] OutputFileNames)
     {
         resultDirectory = rootDirectory;
@@ -91,7 +91,11 @@ public class OpenCVOperation {
     }
 
 
-    // Test grab cut
+    /**
+     * GrabCut algorithm to extract foreground in images
+     * Foreground extraction with minimal user interaction
+     * Algorithm :
+     */
     public void testGrabCut()
     {
 
@@ -524,6 +528,40 @@ public class OpenCVOperation {
 
 
 
+    // Mask image for GrabCut in Open CV
+    /**
+     * Algorithm :
+     * 1. Fill with the bg value -
+     * Mat mask
+     *
+     *
+     * 2. Fill a smaller rectangler with the probably foreground value -
+     * Rect area
+     * are x - y =  10, 10
+     * width = 250 - height = 250
+     * --- create rectangle - mask - area -
+     *
+     *
+     *
+     * 3. Fill a smaller rectangle with the foreground value
+     *
+     *
+     * 4. Visualize result
+     *
+     *
+     *
+     Cat face detector with Open CV and Java FX
+     1. Access to the camera
+     2. Make pictures with the camera and render it as a video
+     3. Check picture or patterns - cat faces pattern
+     4. GUI - Open CV application with JavaFX
+     5. Get the number of cat faces
+
+
+        Main application :
+            - load native OpenCV lib
+     *
+     */
 
 }
 

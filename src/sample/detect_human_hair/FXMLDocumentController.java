@@ -1,9 +1,14 @@
 package sample.detect_human_hair;
 
 
+import java.awt.image.BufferedImage;
+import java.awt.image.DataBufferByte;
 import java.io.File;
 import java.net.URL;
 import java.util.ResourceBundle;
+
+import javafx.application.Platform;
+import javafx.embed.swing.SwingFXUtils;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -12,7 +17,9 @@ import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.stage.FileChooser;
 import javafx.stage.Stage;
-
+import org.opencv.core.*;
+import org.opencv.imgproc.Imgproc;
+import org.opencv.videoio.VideoCapture;
 
 
 // Hair detection controller
@@ -51,6 +58,26 @@ public class FXMLDocumentController implements Initializable {
 
     // OpenCV Operation 
     OpenCVOperation obj;
+
+    // OpenCV object that realizes the video capture
+
+    private VideoCapture capture  = new VideoCapture(0);
+    // A flag to change the button behaviour
+    private static boolean cameraActive = false;
+
+
+    // Settings
+
+    // Set video device
+
+
+
+
+
+
+
+
+
     FileChooser fileChooser = new FileChooser();
     String path;
 
@@ -128,6 +155,210 @@ public class FXMLDocumentController implements Initializable {
     {
         // TODO
     }
+
+
+
+
+
+
+    //=========== Functions for handling Video detection
+    public void setClosed(){
+        // Close thread on window close
+        cameraActive = false;
+    }
+
+
+    /**
+     * Mat to buffered images
+     * 1. int width of the image
+     * 2. Init buffer image
+     * 3. Print target image pixel
+     * @param matBGR
+     * @return image
+     */
+    public BufferedImage matToBufferedImage(Mat matBGR) {
+        int width = matBGR.width(), height = matBGR.height(), channels = matBGR.channels();
+        byte[] sourcePixels = new byte[width * height * channels];
+        matBGR.get(0, 0, sourcePixels);
+        BufferedImage image;
+        if (matBGR.channels() > 1) {
+            image = new BufferedImage(width, height, BufferedImage.TYPE_3BYTE_BGR);
+        } else {
+            image = new BufferedImage(width, height, BufferedImage.TYPE_BYTE_GRAY);
+        }
+        final byte[] targetPixels = ((DataBufferByte) image.getRaster().getDataBuffer()).getData();
+        System.arraycopy(sourcePixels, 0, targetPixels, 0, sourcePixels.length);
+        return image;
+    }
+
+    /**
+     *
+     * Convert a Mat object OpenCV in the corresponding image for Java FX
+     *
+     * @param frame
+     *            the {@link Mat} representing the current frame
+     * @return the {@link Image} to show
+     */
+    private Image mat2Image(Mat frame) {
+        try {
+            return SwingFXUtils.toFXImage(matToBufferedImage(frame), null);
+        } catch (Exception e) {
+            System.out.println("ERROR - cannot convert mat object from opencv in the corresponding image for Java FX " + e);
+
+            return null;
+        }
+    }
+
+    /**
+     * Process a frame
+     * @param
+     * @return
+     */
+    private Mat processMat(Mat matToShow) {
+        // convert the image to gray scale
+        //Imgproc.cvtColor(matToShow, matToShow, Imgproc.COLOR_BGR2GRAY);
+        return matToShow;
+    }
+
+
+    /**
+     * Get a frame from the opened video stream - if any
+     * @param
+     * @return frame
+     * 1. Check if the capture is open
+     *  - yes
+     *      - read the current frame
+     *  - no
+     *      - log error
+     */
+    private Mat grabFrame() {
+        // init everything
+        Mat frame = new Mat();
+
+        // check if the capture is open
+        if (this.capture.isOpened()) {
+            try {
+                // read the current frame
+                this.capture.read(frame);
+
+                // if the frame is not empty, process it
+                if (!frame.empty()) {
+
+                }
+
+            } catch (Exception e) {
+                // log the error
+                System.err.println("Exception during the image elaboration: " + e);
+            }
+        }
+
+        return frame;
+    }
+
+
+    /**
+     * Always update the UI from the main thread
+     *
+     */
+    private void updateUIObjects() {
+        Platform.runLater(() -> {
+            // Update UI Objects like: Textfield.setText() , Button.set..() ,
+            // Window.Resize...()
+            //Set FPS
+            /*fps.setText(""+capture.get(5));*/
+        });
+    }
+
+    /**
+     * mat -> buffer image
+     * 1. source - fastest code - output : bufferimage - image
+     *
+     * 2. get pixels of the image
+     * //data buffer
+     */
+
+    public BufferedImage Mat2BufferedImage(Mat m){
+        // source: http://answers.opencv.org/question/10344/opencv-java-load-image-to-gui/
+        // Fastest code
+        // The output can be assigned either to a BufferedImage or to an Image
+
+        int type = BufferedImage.TYPE_BYTE_GRAY;
+        if ( m.channels() > 1 ) {
+            type = BufferedImage.TYPE_3BYTE_BGR;
+        }
+        int bufferSize = m.channels()*m.cols()*m.rows();
+        byte [] b = new byte[bufferSize];
+        m.get(0,0,b); // get all the pixels
+        BufferedImage image = new BufferedImage(m.cols(),m.rows(), type);
+        final byte[] targetPixels = ((DataBufferByte) image.getRaster().getDataBuffer()).getData();
+        System.arraycopy(b, 0, targetPixels, 0, b.length);
+        return image;
+
+    }
+
+
+    /**
+     * Detect
+     * 1. Init Mat image
+     * 2. Copy to
+     * 3. Detect multi scale
+     */
+    public Mat detect(Mat inputframe){
+        Mat mRgba=new Mat();
+        Mat mGrey=new Mat();
+        MatOfRect faces = new MatOfRect();
+
+        inputframe.copyTo(mRgba);
+        inputframe.copyTo(mGrey);
+
+        Imgproc.cvtColor( mRgba, mGrey, Imgproc.COLOR_BGR2GRAY);
+        Imgproc.equalizeHist( mGrey, mGrey );
+
+        face_cascade.detectMultiScale(mGrey, faces);
+        int detectedFaces = faces.toArray().length;
+
+        System.out.println(String.format("Detected %s faces", detectedFaces));
+
+        for(Rect rect:faces.toArray()){
+            Point center= new Point(rect.x + rect.width*0.5, rect.y + rect.height*0.5 );
+            Imgproc.ellipse( mRgba, center, new Size( rect.width*0.5, rect.height*0.5), 0, 0, 360, new Scalar( 255, 0, 255 ), 4, 8, 0 );
+            //Core.rectangle(mRgba, new Point(rect.width*0.5, rect.height*0.5), center, new Scalar( 0, 255, 255 ), 4, 8, 0);
+            croppedImage = Mat2BufferedImage(mGrey);
+        }
+        return mRgba;
+    }
+
+    /**
+     * Always Update UI from main thread
+     */
+    private void setFrametoImageView(Image frame) {
+        Platform.runLater(() -> {
+            currentFrame.setImage(frame);
+            currentFrame.setFitWidth(ImageViewPane.getWidth());
+            currentFrame.setFitHeight((ImageViewPane.getHeight()));
+            // set Image height/width by window size
+        });
+
+    }
+
+
+    /**
+     * Start camera
+     * 1. Start video capture
+     * 2. Check if video stream available
+     *  // If camera active
+     *      // Grab frame
+     *      // Process frame
+     *      // Convert the Mat obj (OpenCV) -> Image (JavaFX) = for output
+     *
+     *      // Update ImageView
+     *
+     *
+     *      thanh nien nay y chang nhu con trai nhi - trong hai vai dan
+     *
+     */
+
+
 
 }
 
