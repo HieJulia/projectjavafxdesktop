@@ -8,17 +8,19 @@ Desktop application project created with Java FX
 
 
 ## Project features 
-+ Real time face recognition 
++ Real time facial recognition   
 
-+ Face trainer 
++ Object detection 
 
-+ Motion detection 
 
-+ Trained faces image gallery view 
 
-+ Eye detection 
++ Text detection - using tesseract - detect employee ID card - and save to database 
 
-+ Save face patterns 
+
++ 
+
+
+
 
 
 
@@ -44,23 +46,12 @@ Desktop application project created with Java FX
 
 
 
-Object detection - hay tao ra 1 cai gi day - luc day ban se deep dive into may cai day 
-
-
-
-
-Co anh trai - vay chac bo con be nay dep trai lam nhi 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Process image 
+    + Remove noise
+    + Change the color of the image - HSV - get the contours easily 
+    + Morphological operator 
+        + 2 matrices of morphological operator dilation and erosion - process the image 
+        + Result is matrix morphoutput that will be the partial out put 
+    + Obj tracking 
+        + findContours()
+        + 
