@@ -1,14 +1,5 @@
 
     + OpenCV
-    + Access to the camera
-
-
-
-
-
-
-https://github.com/opencv-java/face-detection
-    + OpenCV
         + Haar
     + Detect human faces in a webcam
 https://github.com/MeAnupSarkar/ExoVisix
@@ -31,4 +22,6 @@ https://github.com/opencv-java/video-basics
 
 Used :
 
-https://github.com/sujit25/Human-hair-detection
+https://github.com/AYIDouble/Cat-Face-Detector-with-OpenCV-and-JavaFX
+    - Video capture
+    - Detect cat faces with video capture

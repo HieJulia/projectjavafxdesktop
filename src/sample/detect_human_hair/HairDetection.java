@@ -5,7 +5,8 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
-import org.opencv.core.Core;
+import org.opencv.core.CvType;
+import org.opencv.core.Mat;
 
 
 public class HairDetection extends Application {
@@ -14,7 +15,7 @@ public class HairDetection extends Application {
     public void start(Stage stage) throws Exception {
         // Load XML resource
         // load the FXML resource
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("HairDetection.fxml"));
+//        FXMLLoader loader = new FXMLLoader(getClass().getResource("HairDetection.fxml"));
 
         Parent root = FXMLLoader.load(getClass().getResource("HairDetection.fxml"));
 
@@ -29,7 +30,7 @@ public class HairDetection extends Application {
         stage.show();
 
         // Init the controller
-        final FXMLDocumentController controller = loader.getController();
+//        final FXMLDocumentController controller = loader.getController();
 
 
 
@@ -45,7 +46,9 @@ public class HairDetection extends Application {
     public static void main(String[] args) {
 
         // Load the native OpenCV library
-        System.loadLibrary(Core.NATIVE_LIBRARY_NAME);
+//        System.loadLibrary(Core.NATIVE_LIBRARY_NAME);
+
+
 
 
         launch(args);
