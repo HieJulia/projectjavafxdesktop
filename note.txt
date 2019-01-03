@@ -1,40 +1,6 @@
-
-
-    + OpenCV
-    + JavaFX
-    + MySQL
-    + Maven
-    + Tesseract OCR Framework
-
-
-
-
-
-
-
-https://github.com/kmrifat/Dr-Assistant
-    + view -> auth, common, drug, html, other , patient,
-    + big project
-
-
-
--------
-
-Used :
-
-https://github.com/AYIDouble/Cat-Face-Detector-with-OpenCV-and-JavaFX
-    - Video capture
-    - Detect cat faces with video capture
-
-
-
 https://github.com/opencv-java/face-detection
-    - Video capture
-    - Detect human faces
-    - Ket hop detect human faces and cat faces
 
 
+https://github.com/MeAnupSarkar/ExoVisix
 
-
-Big project - real time recognition
 

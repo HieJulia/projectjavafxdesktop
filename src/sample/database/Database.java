@@ -50,39 +50,56 @@ public class Database {
 
     // Save to database
     public void insert() {
-        String sql = "INSERT INTO face_bio (code, first_name, last_name, reg, age , section) VALUES (?, ?, ?, ?,?,?)";
 
-        PreparedStatement statement = null;
-        try {
-            statement = con.prepareStatement(sql);
-        } catch (SQLException e1) {
-            // TODO Auto-generated catch block
-            e1.printStackTrace();
-        }
+        // Validation
+        /**
+         * 1. Code - not null - int
+         * 2. Fname - not null - string
+         * 3. Lname - not null - string
+         * 4.
+         */
 
-        try {
+        if(this.fname == null || this.Lname == null){
+            // Log error
+            System.out.println("To insert to the database - Properties cannot be null");
+        } else {
+            String sql = "INSERT INTO face_bio (code, first_name, last_name, reg, age , section) VALUES (?, ?, ?, ?,?,?)";
 
-            statement.setInt(1, this.code);
-            statement.setString(2, this.fname);
-
-            statement.setString(3, this.Lname);
-            statement.setInt(4, this.reg);
-            statement.setInt(5, this.age);
-            statement.setString(6, this.sec);
-
-            int rowsInserted = statement.executeUpdate();
-            if (rowsInserted > 0) {
-
-                System.out.println("A new face bio data was inserted successfully!");
-
-
+            PreparedStatement statement = null;
+            try {
+                statement = con.prepareStatement(sql);
+            } catch (SQLException e1) {
+                // TODO Auto-generated catch block
+                e1.printStackTrace();
             }
-        } catch (SQLException e) {
-            // TODO Auto-generated catch block
-            e.printStackTrace();
+
+            try {
+
+                statement.setInt(1, this.code);
+                statement.setString(2, this.fname);
+
+                statement.setString(3, this.Lname);
+                statement.setInt(4, this.reg);
+                statement.setInt(5, this.age);
+                statement.setString(6, this.sec);
+
+                int rowsInserted = statement.executeUpdate();
+                if (rowsInserted > 0) {
+
+                    System.out.println("A new face bio data was inserted successfully!");
+
+
+                }
+            } catch (SQLException e) {
+                // TODO Auto-generated catch block
+                e.printStackTrace();
+            }
         }
 
     }
+
+
+
 
     public ArrayList<String> getUser(int inCode) throws SQLException {
 
@@ -136,6 +153,9 @@ public class Database {
         return user;
     }
 
+
+
+    // Close connection
     public void db_close() throws SQLException
     {
         try {
@@ -144,7 +164,9 @@ public class Database {
             // TODO Auto-generated catch block
             e.printStackTrace();
         }
-    }
+    }//close connection - thich nghe nhac rock
+
+
 
 
     public int getCode() {

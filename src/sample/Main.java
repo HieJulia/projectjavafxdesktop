@@ -35,7 +35,7 @@ import java.io.IOException;
  */
 public class Main extends Application {
 
-    // A reference to the model
+    // A reference to the sample.model
     AudioConfigModel acModel = new AudioConfigModel();
 
     Text textDb;
@@ -49,7 +49,7 @@ public class Main extends Application {
     public void start(Stage primaryStage) throws Exception{
 
 
-//        Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));/**/
+        Parent root = FXMLLoader.load(getClass().getResource("/other/About.fxml"));/**/
         // Set title
         primaryStage.setTitle("Hello World");
 
