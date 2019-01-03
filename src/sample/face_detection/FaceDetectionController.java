@@ -99,7 +99,7 @@ public class FaceDetectionController
     @FXML
     protected void startCamera()
     {
-        System.out.print("START CAMERA");
+        System.out.print("START CAMERA - STOP CAMERA FUNCTIONS");
 
         if (!this.cameraActive)
         {
@@ -132,7 +132,10 @@ public class FaceDetectionController
                 this.timer = Executors.newSingleThreadScheduledExecutor();
                 this.timer.scheduleAtFixedRate(frameGrabber, 0, 33, TimeUnit.MILLISECONDS);
 
-                // update the button content
+
+
+                 // Set the button content From Start Camera -> Stop Camera
+
                 this.cameraButton.setText("Stop Camera");
             }
             else

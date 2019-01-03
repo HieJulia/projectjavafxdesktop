@@ -1,6 +1,17 @@
-https://github.com/opencv-java/face-detection
-
-
 https://github.com/MeAnupSarkar/ExoVisix
+
+
+
+Book : Open CV - Java
+
++ Learn OpenCV 4 by building projects
+
++ Raspberry Pi 3 projects for Java programmers
+
++ Java image processing recipes : With Open CV and JVM
+
+
+
+
 
 

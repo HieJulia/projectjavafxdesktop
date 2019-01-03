@@ -42,3 +42,25 @@ Desktop application project created with Java FX
 
 ----- 
 
+
+
+Object detection - hay tao ra 1 cai gi day - luc day ban se deep dive into may cai day 
+
+
+
+
+Co anh trai - vay chac bo con be nay dep trai lam nhi 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
