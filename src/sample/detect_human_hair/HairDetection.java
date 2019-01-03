@@ -31,3 +31,5 @@ public class HairDetection extends Application {
     }
 
 }
+
+

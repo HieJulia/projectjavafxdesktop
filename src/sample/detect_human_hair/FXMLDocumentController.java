@@ -18,6 +18,8 @@ import javafx.stage.Stage;
 // Hair detection controller
 public class FXMLDocumentController implements Initializable {
 
+
+    // View model - ImageVIew 
     @FXML private ImageView imgStep1;
     @FXML private ImageView imgStep2;
     @FXML private ImageView imgStep3;
@@ -36,6 +38,8 @@ public class FXMLDocumentController implements Initializable {
     Image img7;
     Image img8;
 
+
+    // Source file 
     File imgFile1;
     File imgFile2;
     File imgFile3;
@@ -45,7 +49,7 @@ public class FXMLDocumentController implements Initializable {
     File imgFile7;
     File imgFile8;
 
-
+    // OpenCV Operation 
     OpenCVOperation obj;
     FileChooser fileChooser = new FileChooser();
     String path;
@@ -68,6 +72,8 @@ public class FXMLDocumentController implements Initializable {
         System.out.println(imgFile1.toURI().toString());
     }
 
+
+    // Handle Generate Action - ActionEvent event 
     @FXML
     private void handleGenerateAction(ActionEvent event)
     {
@@ -84,7 +90,8 @@ public class FXMLDocumentController implements Initializable {
         obj.findContours();
         obj.predict_hair_color();
 
-        //Generate file to load images
+
+        // Generate file to load images 
         imgFile2 = new File(path,results[2]+".png");        //grabcut quantized
         imgFile3 = new File(path,results[3]+".png");        //skin detection quantized
         imgFile4 = new File(path,results[4]+".png");        //morphed Image
@@ -95,6 +102,8 @@ public class FXMLDocumentController implements Initializable {
 
 
         //Generate images using files
+
+        // Generate images using files 
         img2 = new Image(imgFile2.toURI().toString());
         img3 = new Image(imgFile3.toURI().toString());
         img4 = new Image(imgFile4.toURI().toString());
@@ -123,7 +132,5 @@ public class FXMLDocumentController implements Initializable {
 }
 
 
-
-// e hay vay a ha - no ngoi im no ngoi no code
 
 
