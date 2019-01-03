@@ -216,7 +216,10 @@ public class FaceDetectionController
      */
     private void detectAndDisplay(Mat frame)
     {
+        System.out.print("DETECTING.....");
+
         MatOfRect faces = new MatOfRect();
+
         Mat grayFrame = new Mat();
 
         // convert the frame in gray scale
