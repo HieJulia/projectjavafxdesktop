@@ -2,7 +2,11 @@
 Desktop application project created with Java FX 
 
 ## Project description 
-+ Facial recognition and detection
++ Company employees facial recognition detection system  
++ Save employees facial patterns 
+
+
+
 
 ## Stack 
 + Java FX 
