@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="detection@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.4">
+    <root id="1"/>
+    <schema id="2" parent="1" name="detection">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="bank"/>
+    <schema id="4" parent="1" name="books"/>
+    <schema id="5" parent="1" name="company"/>
+    <schema id="6" parent="1" name="contact_db"/>
+    <schema id="7" parent="1" name="employees"/>
+    <schema id="8" parent="1" name="forge"/>
+    <schema id="9" parent="1" name="forumblog"/>
+    <schema id="10" parent="1" name="healthapp"/>
+    <schema id="11" parent="1" name="hibernateproject"/>
+    <schema id="12" parent="1" name="information_schema"/>
+    <schema id="13" parent="1" name="jobportal"/>
+    <schema id="14" parent="1" name="learning1"/>
+    <schema id="15" parent="1" name="myblog"/>
+    <schema id="16" parent="1" name="mycontact"/>
+    <schema id="17" parent="1" name="mysql"/>
+    <schema id="18" parent="1" name="onlinetutorialspoint"/>
+    <schema id="19" parent="1" name="performance_schema"/>
+    <schema id="20" parent="1" name="projectApp"/>
+    <schema id="21" parent="1" name="spring_blog"/>
+    <schema id="22" parent="1" name="teacherBooking"/>
+    <schema id="23" parent="1" name="test"/>
+    <schema id="24" parent="1" name="testtext"/>
+    <schema id="25" parent="1" name="tutorfinding"/>
+    <schema id="26" parent="1" name="userService"/>
+    <schema id="27" parent="1" name="webshop"/>
+    <schema id="28" parent="1" name="[jbt_db]"/>
+  </database-model>
+</dataSource>

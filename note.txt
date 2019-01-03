@@ -1,8 +1,5 @@
 
-    + OpenCV
-        + Haar
-    + Detect human faces in a webcam
-https://github.com/MeAnupSarkar/ExoVisix
+
     + OpenCV
     + JavaFX
     + MySQL
@@ -11,13 +8,16 @@ https://github.com/MeAnupSarkar/ExoVisix
 
 
 
+
+
+
+
 https://github.com/kmrifat/Dr-Assistant
     + view -> auth, common, drug, html, other , patient,
     + big project
-https://github.com/opencv-java/video-basics
-    + OpenCV
-    + Capture a video from webcam and manipulating its frame : add a logo in the corner of the video player - convert the video in grayscale, and show the histogram of each frame
-    + Install OpenCV
+
+
+
 -------
 
 Used :
@@ -25,3 +25,16 @@ Used :
 https://github.com/AYIDouble/Cat-Face-Detector-with-OpenCV-and-JavaFX
     - Video capture
     - Detect cat faces with video capture
+
+
+
+https://github.com/opencv-java/face-detection
+    - Video capture
+    - Detect human faces
+    - Ket hop detect human faces and cat faces
+
+
+
+
+Big project - real time recognition
+
