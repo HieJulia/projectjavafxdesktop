@@ -10,9 +10,7 @@ Desktop application project created with Java FX
 ## Project features 
 + Real time facial recognition   
 
-+ Object detection 
-
-
++ Working ID extrac
 
 + Text detection - using tesseract - detect employee ID card - and save to database 
 
