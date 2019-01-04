@@ -8,7 +8,7 @@
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/note.txt" afterPath="$PROJECT_DIR$/note.txt" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -98,9 +98,22 @@
           <file leaf-file-name="note.txt" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/note.txt">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="255">
-                  <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+                <state relative-caret-position="225">
+                  <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
                   <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="openCvDoc.md" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/openCvDoc.md">
+              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+                <state split_layout="FIRST">
+                  <first_editor relative-caret-position="465">
+                    <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+                    <folding />
+                  </first_editor>
+                  <second_editor />
                 </state>
               </provider>
             </entry>
@@ -153,11 +166,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="haarcascade_eye_tree_eyeglasses.xml" pinned="false" current-in-tab="true">
+          <file leaf-file-name="haarcascade_eye_tree_eyeglasses.xml" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/resources/haarcascades/haarcascade_eye_tree_eyeglasses.xml">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="15">
-                  <caret line="153" column="50" lean-forward="false" selection-start-line="153" selection-start-column="50" selection-end-line="153" selection-end-column="50" />
+                <state relative-caret-position="420">
+                  <caret line="180" column="25" lean-forward="true" selection-start-line="180" selection-start-column="25" selection-end-line="180" selection-end-column="25" />
                   <folding />
                 </state>
               </provider>
@@ -199,55 +212,16 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Database.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/sample/database/Database.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="585">
-                  <caret line="41" column="32" lean-forward="false" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#2712#2720#0" expanded="true" />
-                    <element signature="e#4519#4520#0" expanded="true" />
-                    <element signature="e#4546#4547#0" expanded="true" />
-                    <element signature="e#4583#4584#0" expanded="true" />
-                    <element signature="e#4615#4616#0" expanded="true" />
-                    <element signature="e#4647#4648#0" expanded="true" />
-                    <element signature="e#4675#4676#0" expanded="true" />
-                    <element signature="e#4717#4718#0" expanded="true" />
-                    <element signature="e#4751#4752#0" expanded="true" />
-                    <element signature="e#4783#4784#0" expanded="true" />
-                    <element signature="e#4811#4812#0" expanded="true" />
-                    <element signature="e#4853#4854#0" expanded="true" />
-                    <element signature="e#4882#4883#0" expanded="true" />
-                    <element signature="e#4909#4910#0" expanded="true" />
-                    <element signature="e#4935#4936#0" expanded="true" />
-                    <element signature="e#4970#4971#0" expanded="true" />
-                    <element signature="e#5000#5001#0" expanded="true" />
-                    <element signature="e#5027#5028#0" expanded="true" />
-                    <element signature="e#5053#5054#0" expanded="true" />
-                    <element signature="e#5088#5089#0" expanded="true" />
-                    <element signature="e#5118#5119#0" expanded="true" />
-                    <element signature="e#5148#5149#0" expanded="true" />
-                    <element signature="e#5174#5175#0" expanded="true" />
-                    <element signature="e#5212#5213#0" expanded="true" />
-                    <element signature="e#5242#5243#0" expanded="true" />
-                    <marker date="1546512151540" expanded="true" signature="1539:1633" ph="INSERT INTO face_bio... " />
-                    <marker date="1546512151540" expanded="true" signature="2810:2866" ph="select * fro... face_bio" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
         </leaf>
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+          <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/README.md">
               <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
                 <state split_layout="FIRST">
-                  <first_editor relative-caret-position="15">
-                    <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+                  <first_editor relative-caret-position="255">
+                    <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
                     <folding />
                   </first_editor>
                   <second_editor />
@@ -258,37 +232,10 @@
           <file leaf-file-name="Employee.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/sample/model/Employee.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="375">
-                  <caret line="30" column="24" lean-forward="false" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+                <state relative-caret-position="178">
+                  <caret line="29" column="33" lean-forward="true" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
                   <folding>
-                    <element signature="e#285#286#0" expanded="true" />
-                    <element signature="e#310#311#0" expanded="true" />
-                    <element signature="e#343#344#0" expanded="true" />
-                    <element signature="e#371#372#0" expanded="true" />
-                    <element signature="e#406#407#0" expanded="true" />
                     <element signature="e#437#438#0" expanded="true" />
-                    <element signature="e#485#486#0" expanded="true" />
-                    <element signature="e#525#526#0" expanded="true" />
-                    <element signature="e#557#558#0" expanded="true" />
-                    <element signature="e#585#586#0" expanded="true" />
-                    <element signature="e#627#628#0" expanded="true" />
-                    <element signature="e#661#662#0" expanded="true" />
-                    <element signature="e#696#697#0" expanded="true" />
-                    <element signature="e#727#728#0" expanded="true" />
-                    <element signature="e#775#776#0" expanded="true" />
-                    <element signature="e#815#816#0" expanded="true" />
-                    <element signature="e#850#851#0" expanded="true" />
-                    <element signature="e#881#882#0" expanded="true" />
-                    <element signature="e#929#930#0" expanded="true" />
-                    <element signature="e#969#970#0" expanded="true" />
-                    <element signature="e#1003#1004#0" expanded="true" />
-                    <element signature="e#1033#1034#0" expanded="true" />
-                    <element signature="e#1079#1080#0" expanded="true" />
-                    <element signature="e#1117#1118#0" expanded="true" />
-                    <element signature="e#1148#1149#0" expanded="true" />
-                    <element signature="e#1175#1176#0" expanded="true" />
-                    <element signature="e#1215#1216#0" expanded="true" />
-                    <element signature="e#1247#1248#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -304,10 +251,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+          <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="360">
+                <state relative-caret-position="337">
                   <caret line="51" column="8" lean-forward="false" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="87" />
                   <folding />
                 </state>
@@ -379,7 +326,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/sample/Controller.java" />
         <option value="$PROJECT_DIR$/src/sample/weather_template.fxml" />
         <option value="$PROJECT_DIR$/src/sample/weather_template.html" />
         <option value="$PROJECT_DIR$/src/sample/WeatherWidget.java" />
@@ -426,10 +372,11 @@
         <option value="$PROJECT_DIR$/src/sample/face_detection/FaceDetection.fxml" />
         <option value="$PROJECT_DIR$/src/sample/face_detection/FaceDetection2.fxml" />
         <option value="$PROJECT_DIR$/src/sample/face_detection/FaceDetection.java" />
-        <option value="$PROJECT_DIR$/note.txt" />
         <option value="$PROJECT_DIR$/nhap" />
         <option value="$PROJECT_DIR$/src/sample/face_detection/FaceDetectionController.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/note.txt" />
+        <option value="$PROJECT_DIR$/openCvDoc.md" />
       </list>
     </option>
   </component>
@@ -552,7 +499,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="SearchEverywhereHistoryKey" value="read&#9;FILE&#9;file:///Users/hien/Documents/desktop/sp/project/projectjavafxdesktop/README.md&#10;nha&#9;FILE&#9;file:///Users/hien/Documents/desktop/sp/project/projectjavafxdesktop/nhap&#10;nt&#9;FILE&#9;file:///Users/hien/Documents/desktop/sp/project/projectjavafxdesktop/note.txt&#10;note&#9;FILE&#9;file:///Users/hien/Documents/desktop/sp/project/projectjavafxdesktop/note.txt&#10;not&#9;FILE&#9;file:///Users/hien/Documents/desktop/sp/project/projectjavafxdesktop/note.txt&#10;ea&#9;FILE&#9;file:///Users/hien/Documents/desktop/sp/project/projectjavafxdesktop/README.md&#10;datab&#9;ACTION&#9;ActivateDatabaseToolWindow&#10;data&#9;FILE&#9;file:///Users/hien/Documents/desktop/sp/project/projectjavafxdesktop/src/sample/database/Database.java&#10;ne&#9;FILE&#9;file:///Users/hien/Documents/desktop/sp/project/projectjavafxdesktop/src/sample/MainSceneController.java&#10;rad&#9;PSI&#9;JAVA://javafx.scene.paint.RadialGradient&#10;no&#9;FILE&#9;file:///Users/hien/Documents/desktop/sp/project/projectjavafxdesktop/note.txt&#10;log&#9;FILE&#9;file:///Users/hien/Documents/desktop/sp/project/projectjavafxdesktop/src/sample/login/LoginController.java&#10;nh&#9;FILE&#9;file:///Users/hien/Documents/desktop/sp/project/projectjavafxdesktop/nhap&#10;mnote&#9;PSI&#9;JAVA://javax.imageio.plugins.tiff.ExifTIFFTagSet.MakerNote&#10;tablesq&#9;FILE&#9;file:///Users/hien/Documents/desktop/sp/project/projectjavafxdesktop/tableschema.sql&#10;n&#9;FILE&#9;file:///Users/hien/Documents/desktop/sp/project/projectjavafxdesktop/note.txt&#10;h&#9;FILE&#9;file:///Users/hien/Documents/desktop/sp/project/projectjavafxdesktop/nhap&#10;nhap&#9;FILE&#9;file:///Users/hien/Documents/desktop/sp/project/projectjavafxdesktop/nhap&#10;activi&#9;FILE&#9;file:///Users/hien/Documents/desktop/sp/project/projectjavafxdesktop/src/sample/ActivityLogController.java" />
+    <property name="SearchEverywhereHistoryKey" value="opencv&#9;FILE&#9;file:///Users/hien/Documents/desktop/sp/project/projectjavafxdesktop/openCvDoc.md&#10;not&#9;FILE&#9;file:///Users/hien/Documents/desktop/sp/project/projectjavafxdesktop/note.txt&#10;read&#9;FILE&#9;file:///Users/hien/Documents/desktop/sp/project/projectjavafxdesktop/README.md&#10;nha&#9;FILE&#9;file:///Users/hien/Documents/desktop/sp/project/projectjavafxdesktop/nhap&#10;nt&#9;FILE&#9;file:///Users/hien/Documents/desktop/sp/project/projectjavafxdesktop/note.txt&#10;note&#9;FILE&#9;file:///Users/hien/Documents/desktop/sp/project/projectjavafxdesktop/note.txt&#10;ea&#9;FILE&#9;file:///Users/hien/Documents/desktop/sp/project/projectjavafxdesktop/README.md&#10;datab&#9;ACTION&#9;ActivateDatabaseToolWindow&#10;data&#9;FILE&#9;file:///Users/hien/Documents/desktop/sp/project/projectjavafxdesktop/src/sample/database/Database.java&#10;ne&#9;FILE&#9;file:///Users/hien/Documents/desktop/sp/project/projectjavafxdesktop/src/sample/MainSceneController.java&#10;rad&#9;PSI&#9;JAVA://javafx.scene.paint.RadialGradient&#10;no&#9;FILE&#9;file:///Users/hien/Documents/desktop/sp/project/projectjavafxdesktop/note.txt&#10;log&#9;FILE&#9;file:///Users/hien/Documents/desktop/sp/project/projectjavafxdesktop/src/sample/login/LoginController.java&#10;nh&#9;FILE&#9;file:///Users/hien/Documents/desktop/sp/project/projectjavafxdesktop/nhap&#10;mnote&#9;PSI&#9;JAVA://javax.imageio.plugins.tiff.ExifTIFFTagSet.MakerNote&#10;tablesq&#9;FILE&#9;file:///Users/hien/Documents/desktop/sp/project/projectjavafxdesktop/tableschema.sql&#10;n&#9;FILE&#9;file:///Users/hien/Documents/desktop/sp/project/projectjavafxdesktop/note.txt&#10;h&#9;FILE&#9;file:///Users/hien/Documents/desktop/sp/project/projectjavafxdesktop/nhap&#10;nhap&#9;FILE&#9;file:///Users/hien/Documents/desktop/sp/project/projectjavafxdesktop/nhap&#10;activi&#9;FILE&#9;file:///Users/hien/Documents/desktop/sp/project/projectjavafxdesktop/src/sample/ActivityLogController.java" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -786,15 +733,16 @@
       <workItem from="1546306605731" duration="317000" />
       <workItem from="1546415437455" duration="15958000" />
       <workItem from="1546504895035" duration="16500000" />
-      <workItem from="1546589754348" duration="15000" />
+      <workItem from="1546589754348" duration="1719000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46517000" />
+    <option name="totallyTimeSpent" value="48221000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1200" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -805,10 +753,10 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17518637" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2976085" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32949513" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5039858" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37555358" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38125667" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2140575" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15495208" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -885,13 +833,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/sample/admin/AdminController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/src.zip!/java.desktop/javax/imageio/plugins/tiff/ExifTIFFTagSet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="244">
@@ -903,6 +844,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="244">
           <caret line="53" column="24" lean-forward="false" selection-start-line="53" selection-start-column="24" selection-end-line="53" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -992,6 +934,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
           <caret line="61" column="10" lean-forward="false" selection-start-line="61" selection-start-column="10" selection-end-line="61" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1000,7 +943,7 @@
         <state relative-caret-position="472">
           <caret line="48" column="1" lean-forward="false" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
             <marker date="1546440551274" expanded="true" signature="3961:4096" ph="select roomn... rooms" />
             <marker date="1546440551274" expanded="true" signature="4725:4860" ph="select roomn... rooms" />
             <marker date="1546440551274" expanded="true" signature="5786:5921" ph="select roomn... rooms" />
@@ -1069,51 +1012,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/login/LoginController.java" />
-    <entry file="file://$PROJECT_DIR$/src/sample/model/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="30" column="24" lean-forward="false" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
-          <folding>
-            <element signature="e#285#286#0" expanded="true" />
-            <element signature="e#310#311#0" expanded="true" />
-            <element signature="e#343#344#0" expanded="true" />
-            <element signature="e#371#372#0" expanded="true" />
-            <element signature="e#406#407#0" expanded="true" />
-            <element signature="e#437#438#0" expanded="true" />
-            <element signature="e#485#486#0" expanded="true" />
-            <element signature="e#525#526#0" expanded="true" />
-            <element signature="e#557#558#0" expanded="true" />
-            <element signature="e#585#586#0" expanded="true" />
-            <element signature="e#627#628#0" expanded="true" />
-            <element signature="e#661#662#0" expanded="true" />
-            <element signature="e#696#697#0" expanded="true" />
-            <element signature="e#727#728#0" expanded="true" />
-            <element signature="e#775#776#0" expanded="true" />
-            <element signature="e#815#816#0" expanded="true" />
-            <element signature="e#850#851#0" expanded="true" />
-            <element signature="e#881#882#0" expanded="true" />
-            <element signature="e#929#930#0" expanded="true" />
-            <element signature="e#969#970#0" expanded="true" />
-            <element signature="e#1003#1004#0" expanded="true" />
-            <element signature="e#1033#1034#0" expanded="true" />
-            <element signature="e#1079#1080#0" expanded="true" />
-            <element signature="e#1117#1118#0" expanded="true" />
-            <element signature="e#1148#1149#0" expanded="true" />
-            <element signature="e#1175#1176#0" expanded="true" />
-            <element signature="e#1215#1216#0" expanded="true" />
-            <element signature="e#1247#1248#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/model/FacialPattern.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/auth/Home.fxml" />
     <entry file="file://$PROJECT_DIR$/src/sample/auth/AuthService.java" />
     <entry file="file://$PROJECT_DIR$/src/sample/database/Database.java">
@@ -1184,14 +1082,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/note.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/face_detection/FaceDetection.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder">
         <state />
@@ -1210,14 +1100,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="31" column="12" lean-forward="false" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="51" column="8" lean-forward="false" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="87" />
           <folding />
         </state>
       </provider>
@@ -1250,8 +1132,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/haarcascades/haarcascade_eye_tree_eyeglasses.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="153" column="50" lean-forward="false" selection-start-line="153" selection-start-column="50" selection-end-line="153" selection-end-column="50" />
+        <state relative-caret-position="420">
+          <caret line="180" column="25" lean-forward="true" selection-start-line="180" selection-start-column="25" selection-end-line="180" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/note.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1259,8 +1149,45 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="15">
-            <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+          <first_editor relative-caret-position="255">
+            <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/model/FacialPattern.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/model/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="29" column="33" lean-forward="true" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+          <folding>
+            <element signature="e#437#438#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="51" column="8" lean-forward="false" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="87" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openCvDoc.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="465">
+            <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
