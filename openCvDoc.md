@@ -19,11 +19,27 @@
 ## Deep learning with OpenCV 
 + NN 
 + Object detection algorithm 
-+ Face detection using Single Shot Detector 
++ Face detection using Single Shot Detector
+
+
+## Object detection algorithm 
++ Face detection SSD 
+    + 
+    
++ YOLO - real time object detection 
 
 
 
 
+## Segmentation algorithm for text recognition 
 
+
+
+
+-------
+
+
+
+ 
 
 

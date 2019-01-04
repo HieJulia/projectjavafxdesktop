@@ -7,8 +7,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/object_tracker/ColoredObjectTracker.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/text_detection/doc.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/note.txt" afterPath="$PROJECT_DIR$/note.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openCvDoc.md" afterPath="$PROJECT_DIR$/openCvDoc.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/database/Database.java" afterPath="$PROJECT_DIR$/src/sample/database/Database.java" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,23 +36,7 @@
     <option name="SHOW_TABLE_DETAILS" value="true" />
     <option name="SHOW_EMPTY_GROUPS" value="false" />
     <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <expand>
-      <path>
-        <item name="" type="eadb38e5:DatabaseStructure$Root" />
-        <item name="detection@localhost" type="e3449647:DbNodeDescriptor" />
-      </path>
-      <path>
-        <item name="" type="eadb38e5:DatabaseStructure$Root" />
-        <item name="detection@localhost" type="e3449647:DbNodeDescriptor" />
-        <item name="detection" type="e3449647:DbNodeDescriptor" />
-      </path>
-      <path>
-        <item name="" type="eadb38e5:DatabaseStructure$Root" />
-        <item name="detection@localhost" type="e3449647:DbNodeDescriptor" />
-        <item name="detection" type="e3449647:DbNodeDescriptor" />
-        <item name="face_bio" type="e3449647:DbNodeDescriptor" />
-      </path>
-    </expand>
+    <expand />
     <select />
   </component>
   <component name="DebuggerManager">
@@ -98,19 +87,19 @@
           <file leaf-file-name="note.txt" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/note.txt">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="225">
-                  <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+                <state relative-caret-position="15">
+                  <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="openCvDoc.md" pinned="false" current-in-tab="true">
+          <file leaf-file-name="openCvDoc.md" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/openCvDoc.md">
               <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
                 <state split_layout="FIRST">
-                  <first_editor relative-caret-position="465">
-                    <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+                  <first_editor relative-caret-position="96">
+                    <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
                     <folding />
                   </first_editor>
                   <second_editor />
@@ -118,28 +107,15 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Utils.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/sample/utils/Utils.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="45">
-                  <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="FaceDetection.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/sample/face_detection/FaceDetection.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="180">
-                  <caret line="20" column="9" lean-forward="false" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#1541#1542#0" expanded="true" />
-                    <element signature="e#1603#1604#0" expanded="true" />
-                  </folding>
+          <file leaf-file-name="doc.md" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/sample/text_detection/doc.md">
+              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+                <state split_layout="FIRST">
+                  <first_editor relative-caret-position="255">
+                    <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+                    <folding />
+                  </first_editor>
+                  <second_editor />
                 </state>
               </provider>
             </entry>
@@ -202,11 +178,24 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="application.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/sample/face_detection/application.css">
+          <file leaf-file-name="Database.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/sample/database/Database.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <state relative-caret-position="121">
+                  <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+                  <folding>
+                    <marker date="1546605511897" expanded="true" signature="1580:1674" ph="INSERT INTO face_bio... " />
+                    <marker date="1546605511897" expanded="true" signature="2851:2907" ph="select * fro... face_bio" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ColoredObjectTracker.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/sample/object_tracker/ColoredObjectTracker.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="120">
+                  <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
                   <folding />
                 </state>
               </provider>
@@ -220,8 +209,8 @@
             <entry file="file://$PROJECT_DIR$/README.md">
               <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
                 <state split_layout="FIRST">
-                  <first_editor relative-caret-position="255">
-                    <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+                  <first_editor relative-caret-position="525">
+                    <caret line="35" column="46" lean-forward="false" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
                     <folding />
                   </first_editor>
                   <second_editor />
@@ -254,8 +243,8 @@
           <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="337">
-                  <caret line="51" column="8" lean-forward="false" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="87" />
+                <state relative-caret-position="502">
+                  <caret line="62" column="25" lean-forward="false" selection-start-line="62" selection-start-column="25" selection-end-line="62" selection-end-column="25" />
                   <folding />
                 </state>
               </provider>
@@ -291,9 +280,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="Class" />
         <option value="CSS File" />
         <option value="FxmlFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -326,8 +315,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/sample/weather_template.fxml" />
-        <option value="$PROJECT_DIR$/src/sample/weather_template.html" />
         <option value="$PROJECT_DIR$/src/sample/WeatherWidget.java" />
         <option value="$PROJECT_DIR$/src/sample/sample.fxml" />
         <option value="$PROJECT_DIR$/src/sample/AllotNewRoom.fxml" />
@@ -352,7 +339,6 @@
         <option value="$PROJECT_DIR$/src/sample/database/note.txt" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/ba9566af-ea9f-4869-8220-a8ac8d498d44/console.sql" />
         <option value="$PROJECT_DIR$/tableschema.sql" />
-        <option value="$PROJECT_DIR$/src/sample/database/Database.java" />
         <option value="$PROJECT_DIR$/src/model/Employee.java" />
         <option value="$PROJECT_DIR$/src/other/About.fxml" />
         <option value="$PROJECT_DIR$/src/sample/other/About.fxml" />
@@ -374,9 +360,12 @@
         <option value="$PROJECT_DIR$/src/sample/face_detection/FaceDetection.java" />
         <option value="$PROJECT_DIR$/nhap" />
         <option value="$PROJECT_DIR$/src/sample/face_detection/FaceDetectionController.java" />
+        <option value="$PROJECT_DIR$/src/sample/text_detection/doc.md" />
+        <option value="$PROJECT_DIR$/openCvDoc.md" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/note.txt" />
-        <option value="$PROJECT_DIR$/openCvDoc.md" />
+        <option value="$PROJECT_DIR$/src/sample/database/Database.java" />
+        <option value="$PROJECT_DIR$/src/sample/object_tracker/ColoredObjectTracker.java" />
       </list>
     </option>
   </component>
@@ -499,7 +488,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="SearchEverywhereHistoryKey" value="opencv&#9;FILE&#9;file:///Users/hien/Documents/desktop/sp/project/projectjavafxdesktop/openCvDoc.md&#10;not&#9;FILE&#9;file:///Users/hien/Documents/desktop/sp/project/projectjavafxdesktop/note.txt&#10;read&#9;FILE&#9;file:///Users/hien/Documents/desktop/sp/project/projectjavafxdesktop/README.md&#10;nha&#9;FILE&#9;file:///Users/hien/Documents/desktop/sp/project/projectjavafxdesktop/nhap&#10;nt&#9;FILE&#9;file:///Users/hien/Documents/desktop/sp/project/projectjavafxdesktop/note.txt&#10;note&#9;FILE&#9;file:///Users/hien/Documents/desktop/sp/project/projectjavafxdesktop/note.txt&#10;ea&#9;FILE&#9;file:///Users/hien/Documents/desktop/sp/project/projectjavafxdesktop/README.md&#10;datab&#9;ACTION&#9;ActivateDatabaseToolWindow&#10;data&#9;FILE&#9;file:///Users/hien/Documents/desktop/sp/project/projectjavafxdesktop/src/sample/database/Database.java&#10;ne&#9;FILE&#9;file:///Users/hien/Documents/desktop/sp/project/projectjavafxdesktop/src/sample/MainSceneController.java&#10;rad&#9;PSI&#9;JAVA://javafx.scene.paint.RadialGradient&#10;no&#9;FILE&#9;file:///Users/hien/Documents/desktop/sp/project/projectjavafxdesktop/note.txt&#10;log&#9;FILE&#9;file:///Users/hien/Documents/desktop/sp/project/projectjavafxdesktop/src/sample/login/LoginController.java&#10;nh&#9;FILE&#9;file:///Users/hien/Documents/desktop/sp/project/projectjavafxdesktop/nhap&#10;mnote&#9;PSI&#9;JAVA://javax.imageio.plugins.tiff.ExifTIFFTagSet.MakerNote&#10;tablesq&#9;FILE&#9;file:///Users/hien/Documents/desktop/sp/project/projectjavafxdesktop/tableschema.sql&#10;n&#9;FILE&#9;file:///Users/hien/Documents/desktop/sp/project/projectjavafxdesktop/note.txt&#10;h&#9;FILE&#9;file:///Users/hien/Documents/desktop/sp/project/projectjavafxdesktop/nhap&#10;nhap&#9;FILE&#9;file:///Users/hien/Documents/desktop/sp/project/projectjavafxdesktop/nhap&#10;activi&#9;FILE&#9;file:///Users/hien/Documents/desktop/sp/project/projectjavafxdesktop/src/sample/ActivityLogController.java" />
+    <property name="SearchEverywhereHistoryKey" value="note&#9;FILE&#9;file:///Users/hien/Documents/desktop/sp/project/projectjavafxdesktop/note.txt&#10;read&#9;FILE&#9;file:///Users/hien/Documents/desktop/sp/project/projectjavafxdesktop/README.md&#10;opencv&#9;FILE&#9;file:///Users/hien/Documents/desktop/sp/project/projectjavafxdesktop/openCvDoc.md&#10;not&#9;FILE&#9;file:///Users/hien/Documents/desktop/sp/project/projectjavafxdesktop/note.txt&#10;nha&#9;FILE&#9;file:///Users/hien/Documents/desktop/sp/project/projectjavafxdesktop/nhap&#10;nt&#9;FILE&#9;file:///Users/hien/Documents/desktop/sp/project/projectjavafxdesktop/note.txt&#10;ea&#9;FILE&#9;file:///Users/hien/Documents/desktop/sp/project/projectjavafxdesktop/README.md&#10;datab&#9;ACTION&#9;ActivateDatabaseToolWindow&#10;data&#9;FILE&#9;file:///Users/hien/Documents/desktop/sp/project/projectjavafxdesktop/src/sample/database/Database.java&#10;ne&#9;FILE&#9;file:///Users/hien/Documents/desktop/sp/project/projectjavafxdesktop/src/sample/MainSceneController.java&#10;rad&#9;PSI&#9;JAVA://javafx.scene.paint.RadialGradient&#10;no&#9;FILE&#9;file:///Users/hien/Documents/desktop/sp/project/projectjavafxdesktop/note.txt&#10;log&#9;FILE&#9;file:///Users/hien/Documents/desktop/sp/project/projectjavafxdesktop/src/sample/login/LoginController.java&#10;nh&#9;FILE&#9;file:///Users/hien/Documents/desktop/sp/project/projectjavafxdesktop/nhap&#10;mnote&#9;PSI&#9;JAVA://javax.imageio.plugins.tiff.ExifTIFFTagSet.MakerNote&#10;tablesq&#9;FILE&#9;file:///Users/hien/Documents/desktop/sp/project/projectjavafxdesktop/tableschema.sql&#10;n&#9;FILE&#9;file:///Users/hien/Documents/desktop/sp/project/projectjavafxdesktop/note.txt&#10;h&#9;FILE&#9;file:///Users/hien/Documents/desktop/sp/project/projectjavafxdesktop/nhap&#10;nhap&#9;FILE&#9;file:///Users/hien/Documents/desktop/sp/project/projectjavafxdesktop/nhap&#10;activi&#9;FILE&#9;file:///Users/hien/Documents/desktop/sp/project/projectjavafxdesktop/src/sample/ActivityLogController.java" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -733,12 +722,12 @@
       <workItem from="1546306605731" duration="317000" />
       <workItem from="1546415437455" duration="15958000" />
       <workItem from="1546504895035" duration="16500000" />
-      <workItem from="1546589754348" duration="1719000" />
+      <workItem from="1546589754348" duration="4368000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48221000" />
+    <option name="totallyTimeSpent" value="50870000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1200" extended-state="0" />
@@ -833,21 +822,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/src.zip!/java.desktop/javax/imageio/plugins/tiff/ExifTIFFTagSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="1335" column="17" lean-forward="false" selection-start-line="1335" selection-start-column="17" selection-end-line="1335" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/src.zip!/jdk.jdeps/com/sun/tools/javap/TypeAnnotationWriter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="53" column="24" lean-forward="false" selection-start-line="53" selection-start-column="24" selection-end-line="53" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/model/User.java" />
     <entry file="file://$PROJECT_DIR$/src/sample/ContactForm.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder">
@@ -864,6 +838,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
           <caret line="67" column="19" lean-forward="false" selection-start-line="67" selection-start-column="19" selection-end-line="67" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -966,6 +941,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -980,6 +956,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1014,50 +991,13 @@
     <entry file="file://$PROJECT_DIR$/src/sample/login/LoginController.java" />
     <entry file="file://$PROJECT_DIR$/src/sample/auth/Home.fxml" />
     <entry file="file://$PROJECT_DIR$/src/sample/auth/AuthService.java" />
-    <entry file="file://$PROJECT_DIR$/src/sample/database/Database.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="41" column="32" lean-forward="false" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2712#2720#0" expanded="true" />
-            <element signature="e#4519#4520#0" expanded="true" />
-            <element signature="e#4546#4547#0" expanded="true" />
-            <element signature="e#4583#4584#0" expanded="true" />
-            <element signature="e#4615#4616#0" expanded="true" />
-            <element signature="e#4647#4648#0" expanded="true" />
-            <element signature="e#4675#4676#0" expanded="true" />
-            <element signature="e#4717#4718#0" expanded="true" />
-            <element signature="e#4751#4752#0" expanded="true" />
-            <element signature="e#4783#4784#0" expanded="true" />
-            <element signature="e#4811#4812#0" expanded="true" />
-            <element signature="e#4853#4854#0" expanded="true" />
-            <element signature="e#4882#4883#0" expanded="true" />
-            <element signature="e#4909#4910#0" expanded="true" />
-            <element signature="e#4935#4936#0" expanded="true" />
-            <element signature="e#4970#4971#0" expanded="true" />
-            <element signature="e#5000#5001#0" expanded="true" />
-            <element signature="e#5027#5028#0" expanded="true" />
-            <element signature="e#5053#5054#0" expanded="true" />
-            <element signature="e#5088#5089#0" expanded="true" />
-            <element signature="e#5118#5119#0" expanded="true" />
-            <element signature="e#5148#5149#0" expanded="true" />
-            <element signature="e#5174#5175#0" expanded="true" />
-            <element signature="e#5212#5213#0" expanded="true" />
-            <element signature="e#5242#5243#0" expanded="true" />
-            <marker date="1546512151540" expanded="true" signature="1539:1633" ph="INSERT INTO face_bio... " />
-            <marker date="1546512151540" expanded="true" signature="2810:2866" ph="select * fro... face_bio" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/db/DBConnection.java" />
     <entry file="file://$PROJECT_DIR$/src/sample/utils/Utils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1138,19 +1078,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/note.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
+    <entry file="file://$PROJECT_DIR$/src/sample/text_detection/doc.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="255">
+            <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="255">
-            <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+          <first_editor relative-caret-position="525">
+            <caret line="35" column="46" lean-forward="false" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
             <folding />
           </first_editor>
           <second_editor />
@@ -1177,8 +1120,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="51" column="8" lean-forward="false" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="87" />
+        <state relative-caret-position="502">
+          <caret line="62" column="25" lean-forward="false" selection-start-line="62" selection-start-column="25" selection-end-line="62" selection-end-column="25" />
           <folding />
         </state>
       </provider>
@@ -1186,11 +1129,38 @@
     <entry file="file://$PROJECT_DIR$/openCvDoc.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="465">
-            <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <first_editor relative-caret-position="96">
+            <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/note.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/database/Database.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <marker date="1546605511897" expanded="true" signature="1580:1674" ph="INSERT INTO face_bio... " />
+            <marker date="1546605511897" expanded="true" signature="2851:2907" ph="select * fro... face_bio" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/object_tracker/ColoredObjectTracker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>

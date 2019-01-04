@@ -5,8 +5,10 @@ import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
-
+// Main database class
 public class Database {
+
+    // Database :
 
     public int code;
     public String fname;
