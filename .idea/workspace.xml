@@ -7,17 +7,47 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/object_tracker/ColoredObjectTracker.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/text_detection/doc.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/resources/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/ActivityLogController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/AdjustmentController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/AllotNewRoom.fxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/AllotNewRoomController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/AudioConfigModel.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/ChangePasswordController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/ContactForm.fxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/ContactFormController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Controller.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/EmptyRoomsController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Help.fxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Main.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/MainProgramSceneController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/MainSceneController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/WeatherWidget.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/admin/AdminController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/database/DBConnection.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/database/Database.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/database/note.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/face_detection/FaceDetection.fxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/face_detection/FaceDetection.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/face_detection/FaceDetection2.fxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/face_detection/FaceDetectionController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/face_detection/application.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/model/Employee.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/model/FacialPattern.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/object_tracker/ColoredObjectTracker.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/sample.fxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/text_detection/doc.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/utils/Utils.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/weather_template.fxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/weather_template.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/note.txt" afterPath="$PROJECT_DIR$/note.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openCvDoc.md" afterPath="$PROJECT_DIR$/openCvDoc.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/database/Database.java" afterPath="$PROJECT_DIR$/src/sample/database/Database.java" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -87,8 +117,8 @@
           <file leaf-file-name="note.txt" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/note.txt">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="15">
-                  <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -99,35 +129,57 @@
               <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
                 <state split_layout="FIRST">
                   <first_editor relative-caret-position="96">
-                    <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+                    <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
                     <folding />
                   </first_editor>
                   <second_editor />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="FaceDetection.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/sample/face_detection/FaceDetection.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="614">
+                  <caret line="66" column="15" lean-forward="false" selection-start-line="66" selection-start-column="15" selection-end-line="66" selection-end-column="15" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="MotionDetector.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/sample/object_tracker/MotionDetector.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="225">
+                  <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/pom.xml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="165">
+                  <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+                  <folding />
                 </state>
               </provider>
             </entry>
           </file>
           <file leaf-file-name="doc.md" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/sample/text_detection/doc.md">
+            <entry file="file://$PROJECT_DIR$/src/main/java/sample/text_detection/doc.md">
               <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
                 <state split_layout="FIRST">
                   <first_editor relative-caret-position="255">
-                    <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+                    <caret line="17" column="30" lean-forward="false" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
                     <folding />
                   </first_editor>
                   <second_editor />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="FaceDetectionController.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/sample/face_detection/FaceDetectionController.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="3360">
-                  <caret line="253" column="7" lean-forward="false" selection-start-line="253" selection-start-column="7" selection-end-line="253" selection-end-column="7" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
                 </state>
               </provider>
             </entry>
@@ -146,40 +198,14 @@
             <entry file="file://$PROJECT_DIR$/resources/haarcascades/haarcascade_eye_tree_eyeglasses.xml">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="420">
-                  <caret line="180" column="25" lean-forward="true" selection-start-line="180" selection-start-column="25" selection-end-line="180" selection-end-column="25" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="FaceDetection2.fxml" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/sample/face_detection/FaceDetection2.fxml">
-              <provider editor-type-id="JavaFX-Scene-Builder">
-                <state />
-              </provider>
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="465">
-                  <caret line="31" column="12" lean-forward="false" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="FaceDetection.fxml" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/sample/face_detection/FaceDetection.fxml">
-              <provider editor-type-id="JavaFX-Scene-Builder">
-                <state />
-              </provider>
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="210">
-                  <caret line="14" column="12" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+                  <caret line="180" column="25" lean-forward="false" selection-start-line="180" selection-start-column="25" selection-end-line="180" selection-end-column="25" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
           <file leaf-file-name="Database.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/sample/database/Database.java">
+            <entry file="file://$PROJECT_DIR$/src/main/java/sample/database/Database.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="121">
                   <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
@@ -191,11 +217,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="ColoredObjectTracker.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/sample/object_tracker/ColoredObjectTracker.java">
+          <file leaf-file-name="ColoredObjectTracker.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/sample/object_tracker/ColoredObjectTracker.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="120">
-                  <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+                <state relative-caret-position="465">
+                  <caret line="31" column="10" lean-forward="false" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
                   <folding />
                 </state>
               </provider>
@@ -219,10 +245,10 @@
             </entry>
           </file>
           <file leaf-file-name="Employee.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/sample/model/Employee.java">
+            <entry file="file://$PROJECT_DIR$/src/main/java/sample/model/Employee.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="178">
-                  <caret line="29" column="33" lean-forward="true" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+                  <caret line="29" column="33" lean-forward="false" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
                   <folding>
                     <element signature="e#437#438#0" expanded="true" />
                   </folding>
@@ -231,7 +257,7 @@
             </entry>
           </file>
           <file leaf-file-name="FacialPattern.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/sample/model/FacialPattern.java">
+            <entry file="file://$PROJECT_DIR$/src/main/java/sample/model/FacialPattern.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="90">
                   <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
@@ -241,7 +267,7 @@
             </entry>
           </file>
           <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
+            <entry file="file://$PROJECT_DIR$/src/main/java/sample/Main.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="502">
                   <caret line="62" column="25" lean-forward="false" selection-start-line="62" selection-start-column="25" selection-end-line="62" selection-end-column="25" />
@@ -251,7 +277,7 @@
             </entry>
           </file>
           <file leaf-file-name="DBConnection.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/sample/database/DBConnection.java">
+            <entry file="file://$PROJECT_DIR$/src/main/java/sample/database/DBConnection.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="510">
                   <caret line="38" column="29" lean-forward="false" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
@@ -315,8 +341,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/sample/WeatherWidget.java" />
-        <option value="$PROJECT_DIR$/src/sample/sample.fxml" />
         <option value="$PROJECT_DIR$/src/sample/AllotNewRoom.fxml" />
         <option value="$PROJECT_DIR$/src/sample/MainProgramSceneController.java" />
         <option value="$PROJECT_DIR$/src/sample/ActivityLogController.java" />
@@ -357,15 +381,17 @@
         <option value="$PROJECT_DIR$/src/sample/face_detection/application.css" />
         <option value="$PROJECT_DIR$/src/sample/face_detection/FaceDetection.fxml" />
         <option value="$PROJECT_DIR$/src/sample/face_detection/FaceDetection2.fxml" />
-        <option value="$PROJECT_DIR$/src/sample/face_detection/FaceDetection.java" />
         <option value="$PROJECT_DIR$/nhap" />
         <option value="$PROJECT_DIR$/src/sample/face_detection/FaceDetectionController.java" />
         <option value="$PROJECT_DIR$/src/sample/text_detection/doc.md" />
         <option value="$PROJECT_DIR$/openCvDoc.md" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/note.txt" />
         <option value="$PROJECT_DIR$/src/sample/database/Database.java" />
+        <option value="$PROJECT_DIR$/note.txt" />
         <option value="$PROJECT_DIR$/src/sample/object_tracker/ColoredObjectTracker.java" />
+        <option value="$PROJECT_DIR$/src/sample/face_detection/FaceDetection.java" />
+        <option value="$PROJECT_DIR$/src/sample/object_tracker/MotionDetector.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -374,6 +400,13 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
@@ -438,12 +471,29 @@
               <item name="projectjavafxdesktop" type="b2602c69:ProjectViewProjectNode" />
               <item name="projectjavafxdesktop" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projectjavafxdesktop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projectjavafxdesktop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projectjavafxdesktop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projectjavafxdesktop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="sample" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="projectjavafxdesktop" type="b2602c69:ProjectViewProjectNode" />
               <item name="projectjavafxdesktop" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="sample" type="462c0819:PsiDirectoryNode" />
               <item name="database" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -451,6 +501,8 @@
               <item name="projectjavafxdesktop" type="b2602c69:ProjectViewProjectNode" />
               <item name="projectjavafxdesktop" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="sample" type="462c0819:PsiDirectoryNode" />
               <item name="face_detection" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -458,8 +510,19 @@
               <item name="projectjavafxdesktop" type="b2602c69:ProjectViewProjectNode" />
               <item name="projectjavafxdesktop" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="sample" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projectjavafxdesktop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projectjavafxdesktop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sample" type="462c0819:PsiDirectoryNode" />
+              <item name="object_tracker" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="projectjavafxdesktop" type="b2602c69:ProjectViewProjectNode" />
@@ -722,12 +785,12 @@
       <workItem from="1546306605731" duration="317000" />
       <workItem from="1546415437455" duration="15958000" />
       <workItem from="1546504895035" duration="16500000" />
-      <workItem from="1546589754348" duration="4368000" />
+      <workItem from="1546589754348" duration="4859000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50870000" />
+    <option name="totallyTimeSpent" value="51361000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1200" extended-state="0" />
@@ -822,18 +885,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/sample/model/User.java" />
-    <entry file="file://$PROJECT_DIR$/src/sample/ContactForm.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="29" lean-forward="false" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/src.zip!/javafx.graphics/javafx/scene/paint/RadialGradient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
@@ -844,7 +895,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/video/VideoApplication.java" />
     <entry file="file://$PROJECT_DIR$/src/sample/video/utils/Utils.java" />
-    <entry file="file://$PROJECT_DIR$/src/sample/ChangePasswordController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/sample/ChangePasswordController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1920">
           <caret line="128" column="21" lean-forward="false" selection-start-line="128" selection-start-column="21" selection-end-line="128" selection-end-column="21" />
@@ -856,7 +907,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/EmptyRoomsController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/sample/EmptyRoomsController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="810">
           <caret line="54" column="12" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="392" selection-end-column="3" />
@@ -880,7 +931,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/AdjustmentController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/sample/AdjustmentController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
           <caret line="33" column="3" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="276" selection-end-column="3" />
@@ -895,7 +946,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/AudioConfigModel.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/sample/AudioConfigModel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
@@ -913,7 +964,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/AllotNewRoomController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/sample/AllotNewRoomController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="472">
           <caret line="48" column="1" lean-forward="false" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
@@ -937,7 +988,7 @@
     <entry file="file://$PROJECT_DIR$/src/sample/detect_human_hair/FaceDetectionController.java" />
     <entry file="file://$PROJECT_DIR$/src/sample/detect_human_hair/HairDetection.java" />
     <entry file="file://$PROJECT_DIR$/src/sample/detect_human_hair/FXMLDocumentController.java" />
-    <entry file="file://$PROJECT_DIR$/src/sample/database/note.txt">
+    <entry file="file://$PROJECT_DIR$/src/main/java/sample/database/note.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
@@ -960,7 +1011,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/MainSceneController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/sample/MainSceneController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="933">
           <caret line="297" column="0" lean-forward="false" selection-start-line="297" selection-start-column="0" selection-end-line="297" selection-end-column="0" />
@@ -978,7 +1029,7 @@
     <entry file="file://$PROJECT_DIR$/src/sample/auth/ChangePasswordController.java" />
     <entry file="file://$PROJECT_DIR$/src/sample/auth/Login.fxml" />
     <entry file="file://$PROJECT_DIR$/src/sample/auth/Register .fxml" />
-    <entry file="file://$PROJECT_DIR$/src/sample/database/DBConnection.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/sample/database/DBConnection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="38" column="29" lean-forward="false" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
@@ -992,7 +1043,7 @@
     <entry file="file://$PROJECT_DIR$/src/sample/auth/Home.fxml" />
     <entry file="file://$PROJECT_DIR$/src/sample/auth/AuthService.java" />
     <entry file="file://$PROJECT_DIR$/src/sample/db/DBConnection.java" />
-    <entry file="file://$PROJECT_DIR$/src/sample/utils/Utils.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/sample/utils/Utils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
@@ -1002,7 +1053,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/face_detection/application.css">
+    <entry file="file://$PROJECT_DIR$/src/main/java/sample/face_detection/application.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1010,19 +1061,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/face_detection/FaceDetection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="20" column="9" lean-forward="false" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1541#1542#0" expanded="true" />
-            <element signature="e#1603#1604#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/face_detection/FaceDetection.fxml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/sample/face_detection/FaceDetection.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder">
         <state />
       </provider>
@@ -1033,7 +1072,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/face_detection/FaceDetection2.fxml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/sample/face_detection/FaceDetection2.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder">
         <state />
       </provider>
@@ -1044,12 +1083,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/face_detection/FaceDetectionController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/sample/face_detection/FaceDetectionController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3360">
           <caret line="253" column="7" lean-forward="false" selection-start-line="253" selection-start-column="7" selection-end-line="253" selection-end-column="7" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1073,16 +1112,16 @@
     <entry file="file://$PROJECT_DIR$/resources/haarcascades/haarcascade_eye_tree_eyeglasses.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
-          <caret line="180" column="25" lean-forward="true" selection-start-line="180" selection-start-column="25" selection-end-line="180" selection-end-column="25" />
+          <caret line="180" column="25" lean-forward="false" selection-start-line="180" selection-start-column="25" selection-end-line="180" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/text_detection/doc.md">
+    <entry file="file://$PROJECT_DIR$/src/main/java/sample/text_detection/doc.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="255">
-            <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+            <caret line="17" column="30" lean-forward="false" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
             <folding />
           </first_editor>
           <second_editor />
@@ -1100,7 +1139,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/model/FacialPattern.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/sample/model/FacialPattern.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
@@ -1108,17 +1147,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/model/Employee.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/sample/model/Employee.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="178">
-          <caret line="29" column="33" lean-forward="true" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+          <caret line="29" column="33" lean-forward="false" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
           <folding>
             <element signature="e#437#438#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/sample/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="502">
           <caret line="62" column="25" lean-forward="false" selection-start-line="62" selection-start-column="25" selection-end-line="62" selection-end-column="25" />
@@ -1130,22 +1169,14 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="96">
-            <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/note.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/database/Database.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/sample/database/Database.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="121">
           <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
@@ -1156,10 +1187,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/object_tracker/ColoredObjectTracker.java">
+    <entry file="file://$PROJECT_DIR$/note.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sample/object_tracker/ColoredObjectTracker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="10" lean-forward="false" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sample/face_detection/FaceDetection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="614">
+          <caret line="66" column="15" lean-forward="false" selection-start-line="66" selection-start-column="15" selection-end-line="66" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sample/object_tracker/MotionDetector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
           <folding />
         </state>
       </provider>
