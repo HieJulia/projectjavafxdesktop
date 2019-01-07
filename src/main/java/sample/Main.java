@@ -96,9 +96,10 @@ public class Main extends Application {
 
 
 
-// thich nghe nhac
+// het cai day roi - trong no cung rat vui ve
 
-        // nghe nhac cua muse
+
+
 
     }
 
