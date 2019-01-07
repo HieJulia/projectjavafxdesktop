@@ -7,12 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/sample/object_tracker/FaceDetector.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/sample/object_tracker/FaceRecognizer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projectjavafxdesktop.iml" afterPath="$PROJECT_DIR$/projectjavafxdesktop.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/sample/face_detection/FaceDetectionController.java" afterPath="$PROJECT_DIR$/src/main/java/sample/face_detection/FaceDetectionController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/sample/object_tracker/FaceDetector.java" afterPath="$PROJECT_DIR$/src/main/java/sample/object_tracker/FaceDetector.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/sample/object_tracker/FaceRecognizer.java" afterPath="$PROJECT_DIR$/src/main/java/sample/object_tracker/FaceRecognizer.java" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -263,23 +260,94 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="FaceDetector.java" pinned="false" current-in-tab="false">
+          <file leaf-file-name="FaceDetector.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/sample/object_tracker/FaceDetector.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="30">
-                  <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-                  <folding />
+                <state relative-caret-position="7875">
+                  <caret line="525" column="4" lean-forward="false" selection-start-line="525" selection-start-column="4" selection-end-line="525" selection-end-column="4" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#1958#1966#0" expanded="true" />
+                    <element signature="e#12330#12548#0" expanded="true" />
+                    <element signature="e#12547#12548#0" expanded="true" />
+                    <element signature="e#20566#20567#0" expanded="true" />
+                    <element signature="e#20602#20603#0" expanded="true" />
+                    <element signature="e#20660#20661#0" expanded="true" />
+                    <element signature="e#20710#20711#0" expanded="true" />
+                    <element signature="e#20759#20760#0" expanded="true" />
+                    <element signature="e#20797#20798#0" expanded="true" />
+                    <element signature="e#20842#20843#0" expanded="true" />
+                    <element signature="e#20880#20881#0" expanded="true" />
+                    <element signature="e#20933#20934#0" expanded="true" />
+                    <element signature="e#20979#20980#0" expanded="true" />
+                    <element signature="e#21030#21031#0" expanded="true" />
+                    <element signature="e#21074#21075#0" expanded="true" />
+                    <element signature="e#21210#21211#0" expanded="true" />
+                    <element signature="e#21262#21263#0" expanded="true" />
+                    <element signature="e#21297#21298#0" expanded="true" />
+                    <element signature="e#21329#21330#0" expanded="true" />
+                    <element signature="e#21378#21379#0" expanded="true" />
+                    <element signature="e#21420#21421#0" expanded="true" />
+                    <element signature="e#21488#21489#0" expanded="true" />
+                    <element signature="e#21519#21520#0" expanded="true" />
+                    <element signature="e#21566#21567#0" expanded="true" />
+                    <element signature="e#21606#21607#0" expanded="true" />
+                    <element signature="e#21650#21651#0" expanded="true" />
+                    <element signature="e#21679#21680#0" expanded="true" />
+                    <element signature="e#21712#21713#0" expanded="true" />
+                    <element signature="e#21747#21748#0" expanded="true" />
+                    <element signature="e#21802#21803#0" expanded="true" />
+                    <element signature="e#21838#21839#0" expanded="true" />
+                    <element signature="e#21875#21876#0" expanded="true" />
+                    <element signature="e#21911#21912#0" expanded="true" />
+                    <element signature="e#21966#21967#0" expanded="true" />
+                    <element signature="e#22016#22017#0" expanded="true" />
+                    <element signature="e#22044#22045#0" expanded="true" />
+                    <element signature="e#22071#22072#0" expanded="true" />
+                    <element signature="e#22108#22109#0" expanded="true" />
+                    <element signature="e#22140#22141#0" expanded="true" />
+                    <element signature="e#22172#22173#0" expanded="true" />
+                    <element signature="e#22200#22201#0" expanded="true" />
+                    <element signature="e#22242#22243#0" expanded="true" />
+                    <element signature="e#22276#22277#0" expanded="true" />
+                    <element signature="e#22308#22309#0" expanded="true" />
+                    <element signature="e#22336#22337#0" expanded="true" />
+                    <element signature="e#22378#22379#0" expanded="true" />
+                    <element signature="e#22407#22408#0" expanded="true" />
+                    <element signature="e#22434#22435#0" expanded="true" />
+                    <element signature="e#22460#22461#0" expanded="true" />
+                    <element signature="e#22495#22496#0" expanded="true" />
+                    <element signature="e#22525#22526#0" expanded="true" />
+                    <element signature="e#22552#22553#0" expanded="true" />
+                    <element signature="e#22578#22579#0" expanded="true" />
+                    <element signature="e#22613#22614#0" expanded="true" />
+                    <element signature="e#22643#22644#0" expanded="true" />
+                    <element signature="e#22673#22674#0" expanded="true" />
+                    <element signature="e#22699#22700#0" expanded="true" />
+                    <element signature="e#22737#22738#0" expanded="true" />
+                    <element signature="e#22767#22768#0" expanded="true" />
+                    <element signature="e#22812#22813#0" expanded="true" />
+                    <element signature="e#22847#22848#0" expanded="true" />
+                    <element signature="e#22889#22890#0" expanded="true" />
+                    <element signature="e#22922#22923#0" expanded="true" />
+                    <element signature="e#22959#22960#0" expanded="true" />
+                    <element signature="e#22991#22992#0" expanded="true" />
+                    <element signature="e#23042#23043#0" expanded="true" />
+                    <element signature="e#23084#23085#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="FaceRecognizer.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="FaceRecognizer.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/sample/object_tracker/FaceRecognizer.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="435">
-                  <caret line="29" column="25" lean-forward="false" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+                <state relative-caret-position="447">
+                  <caret line="111" column="0" lean-forward="true" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
                   <folding>
                     <element signature="imports" expanded="true" />
+                    <element signature="e#1174#1418#0" expanded="true" />
+                    <element signature="e#1417#1418#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -350,7 +418,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/sample/login/Login.fxml" />
         <option value="$PROJECT_DIR$/src/sample/video/VideoApplication.java" />
         <option value="$PROJECT_DIR$/src/sample/video/utils/Utils.java" />
         <option value="$PROJECT_DIR$/src/sample/EmptyRoomsController.java" />
@@ -401,6 +468,7 @@
         <option value="$PROJECT_DIR$/src/main/java/sample/object_tracker/SquareDetector.java" />
         <option value="$PROJECT_DIR$/src/main/java/sample/face_detection/FaceDetectionController.java" />
         <option value="$PROJECT_DIR$/src/main/java/sample/object_tracker/FaceRecognizer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sample/object_tracker/FaceDetector.java" />
       </list>
     </option>
   </component>
@@ -550,7 +618,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="SearchEverywhereHistoryKey" value="note&#9;FILE&#9;file:///Users/hien/Documents/desktop/sp/project/projectjavafxdesktop/note.txt&#10;read&#9;FILE&#9;file:///Users/hien/Documents/desktop/sp/project/projectjavafxdesktop/README.md&#10;opencv&#9;FILE&#9;file:///Users/hien/Documents/desktop/sp/project/projectjavafxdesktop/openCvDoc.md&#10;not&#9;FILE&#9;file:///Users/hien/Documents/desktop/sp/project/projectjavafxdesktop/note.txt&#10;nha&#9;FILE&#9;file:///Users/hien/Documents/desktop/sp/project/projectjavafxdesktop/nhap&#10;nt&#9;FILE&#9;file:///Users/hien/Documents/desktop/sp/project/projectjavafxdesktop/note.txt&#10;ea&#9;FILE&#9;file:///Users/hien/Documents/desktop/sp/project/projectjavafxdesktop/README.md&#10;datab&#9;ACTION&#9;ActivateDatabaseToolWindow&#10;data&#9;FILE&#9;file:///Users/hien/Documents/desktop/sp/project/projectjavafxdesktop/src/sample/database/Database.java&#10;ne&#9;FILE&#9;file:///Users/hien/Documents/desktop/sp/project/projectjavafxdesktop/src/sample/MainSceneController.java&#10;rad&#9;PSI&#9;JAVA://javafx.scene.paint.RadialGradient&#10;no&#9;FILE&#9;file:///Users/hien/Documents/desktop/sp/project/projectjavafxdesktop/note.txt&#10;log&#9;FILE&#9;file:///Users/hien/Documents/desktop/sp/project/projectjavafxdesktop/src/sample/login/LoginController.java&#10;nh&#9;FILE&#9;file:///Users/hien/Documents/desktop/sp/project/projectjavafxdesktop/nhap&#10;mnote&#9;PSI&#9;JAVA://javax.imageio.plugins.tiff.ExifTIFFTagSet.MakerNote&#10;tablesq&#9;FILE&#9;file:///Users/hien/Documents/desktop/sp/project/projectjavafxdesktop/tableschema.sql&#10;n&#9;FILE&#9;file:///Users/hien/Documents/desktop/sp/project/projectjavafxdesktop/note.txt&#10;h&#9;FILE&#9;file:///Users/hien/Documents/desktop/sp/project/projectjavafxdesktop/nhap&#10;nhap&#9;FILE&#9;file:///Users/hien/Documents/desktop/sp/project/projectjavafxdesktop/nhap&#10;activi&#9;FILE&#9;file:///Users/hien/Documents/desktop/sp/project/projectjavafxdesktop/src/sample/ActivityLogController.java" />
+    <property name="SearchEverywhereHistoryKey" value="face&#9;FILE&#9;file:///Users/hien/Documents/desktop/sp/project/projectjavafxdesktop/src/main/java/sample/object_tracker/FaceDetector.java&#10;note&#9;FILE&#9;file:///Users/hien/Documents/desktop/sp/project/projectjavafxdesktop/note.txt&#10;read&#9;FILE&#9;file:///Users/hien/Documents/desktop/sp/project/projectjavafxdesktop/README.md&#10;opencv&#9;FILE&#9;file:///Users/hien/Documents/desktop/sp/project/projectjavafxdesktop/openCvDoc.md&#10;not&#9;FILE&#9;file:///Users/hien/Documents/desktop/sp/project/projectjavafxdesktop/note.txt&#10;nha&#9;FILE&#9;file:///Users/hien/Documents/desktop/sp/project/projectjavafxdesktop/nhap&#10;nt&#9;FILE&#9;file:///Users/hien/Documents/desktop/sp/project/projectjavafxdesktop/note.txt&#10;ea&#9;FILE&#9;file:///Users/hien/Documents/desktop/sp/project/projectjavafxdesktop/README.md&#10;datab&#9;ACTION&#9;ActivateDatabaseToolWindow&#10;data&#9;FILE&#9;file:///Users/hien/Documents/desktop/sp/project/projectjavafxdesktop/src/sample/database/Database.java&#10;ne&#9;FILE&#9;file:///Users/hien/Documents/desktop/sp/project/projectjavafxdesktop/src/sample/MainSceneController.java&#10;rad&#9;PSI&#9;JAVA://javafx.scene.paint.RadialGradient&#10;no&#9;FILE&#9;file:///Users/hien/Documents/desktop/sp/project/projectjavafxdesktop/note.txt&#10;log&#9;FILE&#9;file:///Users/hien/Documents/desktop/sp/project/projectjavafxdesktop/src/sample/login/LoginController.java&#10;nh&#9;FILE&#9;file:///Users/hien/Documents/desktop/sp/project/projectjavafxdesktop/nhap&#10;mnote&#9;PSI&#9;JAVA://javax.imageio.plugins.tiff.ExifTIFFTagSet.MakerNote&#10;tablesq&#9;FILE&#9;file:///Users/hien/Documents/desktop/sp/project/projectjavafxdesktop/tableschema.sql&#10;n&#9;FILE&#9;file:///Users/hien/Documents/desktop/sp/project/projectjavafxdesktop/note.txt&#10;h&#9;FILE&#9;file:///Users/hien/Documents/desktop/sp/project/projectjavafxdesktop/nhap&#10;nhap&#9;FILE&#9;file:///Users/hien/Documents/desktop/sp/project/projectjavafxdesktop/nhap&#10;activi&#9;FILE&#9;file:///Users/hien/Documents/desktop/sp/project/projectjavafxdesktop/src/sample/ActivityLogController.java" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -785,12 +853,12 @@
       <workItem from="1546415437455" duration="15958000" />
       <workItem from="1546504895035" duration="16500000" />
       <workItem from="1546589754348" duration="5371000" />
-      <workItem from="1546845878986" duration="922000" />
+      <workItem from="1546845878986" duration="1405000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52795000" />
+    <option name="totallyTimeSpent" value="53278000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1200" extended-state="0" />
@@ -808,8 +876,8 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21523473" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21618743" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15495208" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21618743" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15495208" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1238,20 +1306,91 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sample/object_tracker/FaceDetector.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/sample/object_tracker/FaceRecognizer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-          <folding />
+        <state relative-caret-position="447">
+          <caret line="111" column="0" lean-forward="true" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1174#1418#0" expanded="true" />
+            <element signature="e#1417#1418#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sample/object_tracker/FaceRecognizer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/sample/object_tracker/FaceDetector.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="25" lean-forward="false" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+        <state relative-caret-position="7875">
+          <caret line="525" column="4" lean-forward="false" selection-start-line="525" selection-start-column="4" selection-end-line="525" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1958#1966#0" expanded="true" />
+            <element signature="e#12330#12548#0" expanded="true" />
+            <element signature="e#12547#12548#0" expanded="true" />
+            <element signature="e#20566#20567#0" expanded="true" />
+            <element signature="e#20602#20603#0" expanded="true" />
+            <element signature="e#20660#20661#0" expanded="true" />
+            <element signature="e#20710#20711#0" expanded="true" />
+            <element signature="e#20759#20760#0" expanded="true" />
+            <element signature="e#20797#20798#0" expanded="true" />
+            <element signature="e#20842#20843#0" expanded="true" />
+            <element signature="e#20880#20881#0" expanded="true" />
+            <element signature="e#20933#20934#0" expanded="true" />
+            <element signature="e#20979#20980#0" expanded="true" />
+            <element signature="e#21030#21031#0" expanded="true" />
+            <element signature="e#21074#21075#0" expanded="true" />
+            <element signature="e#21210#21211#0" expanded="true" />
+            <element signature="e#21262#21263#0" expanded="true" />
+            <element signature="e#21297#21298#0" expanded="true" />
+            <element signature="e#21329#21330#0" expanded="true" />
+            <element signature="e#21378#21379#0" expanded="true" />
+            <element signature="e#21420#21421#0" expanded="true" />
+            <element signature="e#21488#21489#0" expanded="true" />
+            <element signature="e#21519#21520#0" expanded="true" />
+            <element signature="e#21566#21567#0" expanded="true" />
+            <element signature="e#21606#21607#0" expanded="true" />
+            <element signature="e#21650#21651#0" expanded="true" />
+            <element signature="e#21679#21680#0" expanded="true" />
+            <element signature="e#21712#21713#0" expanded="true" />
+            <element signature="e#21747#21748#0" expanded="true" />
+            <element signature="e#21802#21803#0" expanded="true" />
+            <element signature="e#21838#21839#0" expanded="true" />
+            <element signature="e#21875#21876#0" expanded="true" />
+            <element signature="e#21911#21912#0" expanded="true" />
+            <element signature="e#21966#21967#0" expanded="true" />
+            <element signature="e#22016#22017#0" expanded="true" />
+            <element signature="e#22044#22045#0" expanded="true" />
+            <element signature="e#22071#22072#0" expanded="true" />
+            <element signature="e#22108#22109#0" expanded="true" />
+            <element signature="e#22140#22141#0" expanded="true" />
+            <element signature="e#22172#22173#0" expanded="true" />
+            <element signature="e#22200#22201#0" expanded="true" />
+            <element signature="e#22242#22243#0" expanded="true" />
+            <element signature="e#22276#22277#0" expanded="true" />
+            <element signature="e#22308#22309#0" expanded="true" />
+            <element signature="e#22336#22337#0" expanded="true" />
+            <element signature="e#22378#22379#0" expanded="true" />
+            <element signature="e#22407#22408#0" expanded="true" />
+            <element signature="e#22434#22435#0" expanded="true" />
+            <element signature="e#22460#22461#0" expanded="true" />
+            <element signature="e#22495#22496#0" expanded="true" />
+            <element signature="e#22525#22526#0" expanded="true" />
+            <element signature="e#22552#22553#0" expanded="true" />
+            <element signature="e#22578#22579#0" expanded="true" />
+            <element signature="e#22613#22614#0" expanded="true" />
+            <element signature="e#22643#22644#0" expanded="true" />
+            <element signature="e#22673#22674#0" expanded="true" />
+            <element signature="e#22699#22700#0" expanded="true" />
+            <element signature="e#22737#22738#0" expanded="true" />
+            <element signature="e#22767#22768#0" expanded="true" />
+            <element signature="e#22812#22813#0" expanded="true" />
+            <element signature="e#22847#22848#0" expanded="true" />
+            <element signature="e#22889#22890#0" expanded="true" />
+            <element signature="e#22922#22923#0" expanded="true" />
+            <element signature="e#22959#22960#0" expanded="true" />
+            <element signature="e#22991#22992#0" expanded="true" />
+            <element signature="e#23042#23043#0" expanded="true" />
+            <element signature="e#23084#23085#0" expanded="true" />
           </folding>
         </state>
       </provider>
