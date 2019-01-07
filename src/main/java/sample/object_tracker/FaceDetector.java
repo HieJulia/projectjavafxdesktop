@@ -155,6 +155,9 @@ public class FaceDetector implements Runnable {
 
 
 
+
+
+
     // Run
     public void run() {
         try {
@@ -381,12 +384,14 @@ public class FaceDetector implements Runnable {
         }
     }
 
+
+    // Stop
     public void stop() {
         stop = true;
 
         grabbedImage = grayImage = smallImage = null;
         try {
-            grabber.stop();
+            grabber.stop(); // grabber.stop
         } catch (org.bytedeco.javacv.FrameGrabber.Exception e) {
 
             e.printStackTrace();
@@ -400,6 +405,13 @@ public class FaceDetector implements Runnable {
         grabber = null;
     }
 
+
+    /**
+     * Set classifier
+     * @param name
+     * @return
+     *
+     */
     public void setClassifier(String name) {
 
         try {
@@ -523,7 +535,7 @@ public class FaceDetector implements Runnable {
 
 
 
-
+    //
     public void setClassifierFullBody(String name) {
 
         try {
@@ -552,6 +564,10 @@ public class FaceDetector implements Runnable {
 
     }
 
+    // su dung spring cloud di
+
+
+    // Set classifier eye glass
     public void setClassifierEyeGlass(String name) {
 
         try {
@@ -581,7 +597,7 @@ public class FaceDetector implements Runnable {
     }
 
 
-
+    // Set classifier upper body - String name
     public void setClassifierUpperBody(String name) {
 
         try {
@@ -748,3 +764,7 @@ public class FaceDetector implements Runnable {
 
 
 }
+
+// cua con be nay day
+
+
