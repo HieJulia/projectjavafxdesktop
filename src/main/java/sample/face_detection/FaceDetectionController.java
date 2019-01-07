@@ -5,6 +5,10 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
 
+import javafx.scene.control.*;
+import javafx.scene.layout.AnchorPane;
+import javafx.scene.layout.TilePane;
+import javafx.scene.text.TextFlow;
 import org.opencv.core.Mat;
 import org.opencv.core.MatOfRect;
 import org.opencv.core.Rect;
@@ -20,8 +24,6 @@ import org.opencv.objdetect.Objdetect;
 
 import javafx.event.Event;
 import javafx.fxml.FXML;
-import javafx.scene.control.Button;
-import javafx.scene.control.CheckBox;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 
@@ -49,6 +51,11 @@ import sample.utils.Utils;
  */
 public class FaceDetectionController
 {
+
+    // File location path where the face will be saved and retrieved
+
+    public String filePath="./faces";
+
     // FXML buttons
     @FXML
     private Button cameraButton;
@@ -61,6 +68,102 @@ public class FaceDetectionController
     @FXML
     private CheckBox lbpClassifier;
 
+
+    /**
+     * Object detector FXML
+     */
+
+    @FXML
+    private Button startCam;
+    @FXML
+    private Button stopBtn;
+    @FXML
+    private Button motionBtn;
+    @FXML
+    private Button eyeBtn;
+    @FXML
+    private Button shapeBtn;
+    @FXML
+    private Button upperBodyBtn;
+    @FXML
+    private Button fullBodyBtn;
+    @FXML
+    private Button smileBtn;
+    @FXML
+    private Button gesture;
+    @FXML
+    private Button gestureStop;
+    @FXML
+    private Button saveBtn;
+    @FXML
+    private Button ocrBtn;
+    @FXML
+    private Button capBtn;
+    @FXML
+    private Button recogniseBtn;
+    @FXML
+    private Button stopRecBtn;
+    @FXML
+    private ImageView frame;
+    @FXML
+    private ImageView motionView;
+    @FXML
+    private AnchorPane pdPane;
+    @FXML
+    private TitledPane dataPane;
+    @FXML
+    private TextField fname;
+    @FXML
+    private TextField lname;
+    @FXML
+    private TextField code;
+    @FXML
+    private TextField reg;
+    @FXML
+    private TextField sec;
+    @FXML
+    private TextField age;
+    @FXML
+    public ListView<String> logList;
+    @FXML
+    public ListView<String> output;
+    @FXML
+    public ProgressIndicator pb;
+    @FXML
+    public Label savedLabel;
+    @FXML
+    public Label warning;
+    @FXML
+    public Label title;
+    @FXML
+    public TilePane tile;
+    @FXML
+    public TextFlow ocr;
+
+
+    /**
+     * For object detector
+     */
+
+
+    FaceDetector faceDetect = new FaceDetector();	//Creating Face detector object
+    ColoredObjectTracker cot = new ColoredObjectTracker(); //Creating Color Object Tracker object
+    Database database = new Database();		//Creating Database object
+
+    OCR ocrObj = new OCR();
+    ArrayList<String> user = new ArrayList<String>();
+    ImageView imageView1;
+
+    public static ObservableList<String> event = FXCollections.observableArrayList();
+    public static ObservableList<String> outEvent = FXCollections.observableArrayList();
+
+    public boolean enabled = false;
+    public boolean isDBready = false;
+
+
+    /**
+     * End for object detector
+     */
     // a timer for acquiring the video stream
     private ScheduledExecutorService timer;
     // the OpenCV object that performs the video capture
