@@ -42,6 +42,10 @@ import sample.utils.Utils;
  * Start - stop the camera - acquired video stream
  * Control face detection / tracking
 
+
+ FaceDetectionController - used for detect face - controller
+
+ // add - Object detection
  */
 public class FaceDetectionController
 {
