@@ -37,7 +37,31 @@ public class TextDetection {
         // set tess variable -
 
 
-        // con nho dang rat la hard core
+        // instance .
+
+
+        // oi vai cut - con gai di nghe rock - hard core - tao biet ma - tat nhien - vai cut con nho - day la co be co ca tinh
+
+        // Instance - do OCR
+
+        // print . image file
+
+
+
+        // con nho dang hard core
+
+        // no mo ra 1 khia canh
+
+        // e no nghe nhac rock - dream theater - no co tinh - the thoi 0
+
+
+
+        ///con be nay binh thuong ma - ong gia day di roi =))) hai vai - cai gi tao cung thich
+
+
+
+        // hay nhi - tao thich no thatma
+
 
 
 
