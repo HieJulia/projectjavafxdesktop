@@ -440,6 +440,8 @@ public class FaceDetector implements Runnable {
 
     }
 
+
+
     public void setClassifierEye(String name) {
 
         try {
@@ -468,6 +470,10 @@ public class FaceDetector implements Runnable {
 
     }
 
+    /**
+     * Set classifier -- so thich la nghe nhac - tao ra rat nhieu application
+     * @param name
+     */
     public void setClassifierSmile(String name) {
 
         try {
@@ -496,6 +502,8 @@ public class FaceDetector implements Runnable {
 
     }
 
+
+
     public void printResult(CvSeq data, int total, Graphics2D g2) {
         for (int j = 0; j < total; j++) {
             CvRect eye = new CvRect(cvGetSeqElem(eyes, j));
@@ -505,6 +513,12 @@ public class FaceDetector implements Runnable {
         }
     }
 
+
+    // no dung im lang = ))
+    /**
+
+     * @param name
+     */
     public void setClassifierSideFace(String name) {
 
         try {

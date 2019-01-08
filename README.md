@@ -1,27 +1,20 @@
 # projectjavafxdesktop
 Desktop application project created with Java FX 
 
-## Project description
-+ Company employees management system  
+## Project description  
 + Company employees facial recognition detection system  
-+ Save employees facial patterns for sample.other analysis 
++ Save employees facial patterns for other analysis 
+ 
 
 
 ## Project features 
 + Real time facial recognition   
 
-+ Working ID extrac
++ Real time object recognition 
 
 + Text detection - using tesseract - detect employee ID card - and save to database 
 
-
-+ 
-
-
-
-
-
-
++
 
 
 
@@ -30,27 +23,15 @@ Desktop application project created with Java FX
 + Java FX 
 + Maven 
 + Database : MySQL   
-+ OpenCV version 3 
-    + OpenCV wrapper for Java -
-    
++ OpenCV version 3 - OpenCV wrapper for Java 
 + Text recognition with Tesseract OCR library  
++ MySQL 
++ LIBSVM 
++ Testing : JUnit 
 
 
 
 
 
+----
 
-
------ 
-
-
-
-Process image 
-    + Remove noise
-    + Change the color of the image - HSV - get the contours easily 
-    + Morphological operator 
-        + 2 matrices of morphological operator dilation and erosion - process the image 
-        + Result is matrix morphoutput that will be the partial out put 
-    + Obj tracking 
-        + findContours()
-        + 
