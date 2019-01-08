@@ -16,3 +16,33 @@
             + show each region in a window
             
             + Tesseract OCR - 
+            
+            
+            
+            
+            
+            
++ Step 
+    + Import source picture 
+    + Convert to grayscale 
+    + Gaussian blur with 3x3 or 5x5 filter 
+    + Sobel filter to find vertical edge 
+    + Get binary image 
+    + Morphological close operation using suitable structuring element 
+    + Find contours of the resulting image 
+    + 
+    
+    
+    
+    -------
+    
+    
+    
+    + Source image 
+    + Gray scale 
+    + Gaussian blur 
+    + Adaptive threshold  
+    
+    
+    
+    
