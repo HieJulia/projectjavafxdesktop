@@ -30,3 +30,9 @@ public class EmployeeIDScannerImpl implements EmployeeIDScanner{
 // nguoi thu 3 - day la con nguoi kha co li tri - ru nhau chich -
 
 
+// giong nguoi nhat ban - ghe ha - e may nguoi nay - bo con be nay - thich con ne nay
+
+
+// tui chau a yeu nhau cuc ki nhanh - the thoi - day la introvert
+
+
