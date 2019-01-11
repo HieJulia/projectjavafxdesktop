@@ -27,3 +27,6 @@ public class EmployeeIDScannerImpl implements EmployeeIDScanner{
 
 
 
+// nguoi thu 3 - day la con nguoi kha co li tri - ru nhau chich -
+
+

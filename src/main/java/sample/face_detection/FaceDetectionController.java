@@ -184,7 +184,8 @@ public class FaceDetectionController
      */
     protected void init()
     {
-        System.out.print("I N I T ");
+        // thanh nien nay hard core vcl
+        // chuyen sang nghe rock - cua bon usa
 
 
         this.capture = new VideoCapture();
