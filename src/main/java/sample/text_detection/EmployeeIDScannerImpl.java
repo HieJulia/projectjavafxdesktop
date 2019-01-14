@@ -15,7 +15,3 @@ public class EmployeeIDScannerImpl implements EmployeeIDScanner{
 }
 
 
-
-
-
-
